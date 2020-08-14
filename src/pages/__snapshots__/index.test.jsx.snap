@@ -1,0 +1,684 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "map": undefined,
+      "name": "1krtjz0",
+      "next": undefined,
+      "styles": "
+  margin: 0 auto;
+  max-width: 61rem;
+  padding: 3rem 2rem;
+",
+      "toString": [Function],
+    }
+  }
+>
+  <header
+    css={
+      Object {
+        "map": undefined,
+        "name": "1q0vk5q",
+        "next": undefined,
+        "styles": "
+    text-align: center;
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <h1
+      css={
+        Object {
+          "map": undefined,
+          "name": "19bva1d",
+          "next": undefined,
+          "styles": "
+        font-size: 3.6rem;
+        font-weight: bold;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      Is your embedded network provider overcharging you?
+    </h1>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      On the 28th of July 2020, the
+       
+      <a
+        css={
+          Object {
+            "map": undefined,
+            "name": "15892p7",
+            "next": undefined,
+            "styles": "
+        color: #ff69b4;
+        text-decoration: underline;
+      ",
+            "toString": [Function],
+          }
+        }
+        href="https://www.esc.vic.gov.au/"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Essential Services Commission
+      </a>
+       
+      <a
+        css={
+          Object {
+            "map": undefined,
+            "name": "15892p7",
+            "next": undefined,
+            "styles": "
+        color: #ff69b4;
+        text-decoration: underline;
+      ",
+            "toString": [Function],
+          }
+        }
+        href="https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/embedded-network-tariffs-including-caravan-parks/maximum-electricity-prices-embedded-networks-and-other-exempt-sellers-review-2020"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        ruled
+      </a>
+       
+      on the maximum price embedded network providers and other exempt sellers can charge for electricity in Victoria. These prices take effect from the 1st of September 2020.
+    </p>
+  </header>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "1zfc3u",
+        "next": undefined,
+        "styles": "
+        margin: 6rem 0;
+      ",
+        "toString": [Function],
+      }
+    }
+  >
+    <div
+      css={
+        Object {
+          "map": undefined,
+          "name": "jo4v37",
+          "next": undefined,
+          "styles": "
+        margin: 2rem 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      <label
+        css={
+          Object {
+            "map": undefined,
+            "name": "w5m5m2",
+            "next": undefined,
+            "styles": "
+        display: block;
+        font-size: 1.8rem;
+        font-weight: bold;
+      ",
+            "toString": [Function],
+          }
+        }
+      >
+        What type of customer are you?
+      </label>
+      <select
+        css={
+          Array [
+            Object {
+              "map": undefined,
+              "name": "hfi6s9",
+              "next": undefined,
+              "styles": "
+  appearance: none;
+  border: 0.1rem solid #808080;
+  color: #333333;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  padding: 0.5em;
+  width: 100%;
+",
+              "toString": [Function],
+            },
+            Object {
+              "map": undefined,
+              "name": "1yh9b6y",
+              "next": undefined,
+              "styles": "
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB0ElEQVR4Xu3aMVLDMBBA0Z+GO3AOKjo4DHAmchoqqDhH7kDFbIZ4nOA4trSrlaV1AxkCtr5XL8wkOzo/dp2vnwgQE9B5gdgCnQ9AIBhbILZA5wViCwB74KXTQdjLBNwBH8BjZxE+gefTFrgHvgH52sNxAB6Aw9gAmQCZBJmIlo8f4An4kkVeIvgKvLe8euDtz73jMqdeBVpGUdYmAYZjKkCrKB7RA2QLzAaQH7aG4oDe5fae+0eoFRTP0FsTQJ7bAopn6K0NIM/fMor/0EsJsFUUJ9FLCbBFFK+ilxpAfm8rKM6ilxNgKyjOopcboHYUb6KnEaBWFBehpxGgRhQXo6cVoCYUV6GnGaAWFFehpx3AG8XV6FkE8EIxCT2LAB4oJqNnFaAkilnoWQYohWIWetYBrFHMRq9EACsUVdArEcACRTX0SgXQRFEVvZIBtFBURa90gFwU1dHzCJCKogl6HgFSUDRDzyvAGhRN0fMMsBRFU/S8A9xC0Ry9GgJcQ7EIejUEmEKxGHq1BBijKN8PH1m5vEDrx96fE5R3n08uWK918u97B3BZ9PikEcD9FjhfQEyA8w1wP31MgPstcL6AmADnG+B++pgA91vgfAHdT8Av+Vxk4C70OXQAAAAASUVORK5CYII=)
+        no-repeat calc(100% - 1.5rem) center/1rem;
+    ",
+              "toString": [Function],
+            },
+          ]
+        }
+        onBlur={[Function]}
+        onChange={[Function]}
+        value="residential"
+      >
+        <option
+          value="residential"
+        >
+          Residential
+        </option>
+        <option
+          value="business"
+        >
+          Small Business
+        </option>
+      </select>
+    </div>
+    <div
+      css={
+        Object {
+          "map": undefined,
+          "name": "jo4v37",
+          "next": undefined,
+          "styles": "
+        margin: 2rem 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      <label
+        css={
+          Object {
+            "map": undefined,
+            "name": "w5m5m2",
+            "next": undefined,
+            "styles": "
+        display: block;
+        font-size: 1.8rem;
+        font-weight: bold;
+      ",
+            "toString": [Function],
+          }
+        }
+      >
+        Who’s your distributor? (
+        <a
+          css={
+            Object {
+              "map": undefined,
+              "name": "15892p7",
+              "next": undefined,
+              "styles": "
+        color: #ff69b4;
+        text-decoration: underline;
+      ",
+              "toString": [Function],
+            }
+          }
+          href="https://www.energy.vic.gov.au/electricity/electricity-distributors"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          help
+        </a>
+        )
+      </label>
+      <select
+        css={
+          Array [
+            Object {
+              "map": undefined,
+              "name": "hfi6s9",
+              "next": undefined,
+              "styles": "
+  appearance: none;
+  border: 0.1rem solid #808080;
+  color: #333333;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  padding: 0.5em;
+  width: 100%;
+",
+              "toString": [Function],
+            },
+            Object {
+              "map": undefined,
+              "name": "1yh9b6y",
+              "next": undefined,
+              "styles": "
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB0ElEQVR4Xu3aMVLDMBBA0Z+GO3AOKjo4DHAmchoqqDhH7kDFbIZ4nOA4trSrlaV1AxkCtr5XL8wkOzo/dp2vnwgQE9B5gdgCnQ9AIBhbILZA5wViCwB74KXTQdjLBNwBH8BjZxE+gefTFrgHvgH52sNxAB6Aw9gAmQCZBJmIlo8f4An4kkVeIvgKvLe8euDtz73jMqdeBVpGUdYmAYZjKkCrKB7RA2QLzAaQH7aG4oDe5fae+0eoFRTP0FsTQJ7bAopn6K0NIM/fMor/0EsJsFUUJ9FLCbBFFK+ilxpAfm8rKM6ilxNgKyjOopcboHYUb6KnEaBWFBehpxGgRhQXo6cVoCYUV6GnGaAWFFehpx3AG8XV6FkE8EIxCT2LAB4oJqNnFaAkilnoWQYohWIWetYBrFHMRq9EACsUVdArEcACRTX0SgXQRFEVvZIBtFBURa90gFwU1dHzCJCKogl6HgFSUDRDzyvAGhRN0fMMsBRFU/S8A9xC0Ry9GgJcQ7EIejUEmEKxGHq1BBijKN8PH1m5vEDrx96fE5R3n08uWK918u97B3BZ9PikEcD9FjhfQEyA8w1wP31MgPstcL6AmADnG+B++pgA91vgfAHdT8Av+Vxk4C70OXQAAAAASUVORK5CYII=)
+        no-repeat calc(100% - 1.5rem) center/1rem;
+    ",
+              "toString": [Function],
+            },
+          ]
+        }
+        onBlur={[Function]}
+        onChange={[Function]}
+        value="citipower"
+      >
+        <option
+          value="ausnet"
+        >
+          AusNet Services
+        </option>
+        <option
+          value="citipower"
+        >
+          CitiPower
+        </option>
+        <option
+          value="jemena"
+        >
+          Jemena
+        </option>
+        <option
+          value="powercor"
+        >
+          Powercor
+        </option>
+        <option
+          value="united"
+        >
+          United Energy
+        </option>
+      </select>
+    </div>
+    <div
+      css={
+        Object {
+          "map": undefined,
+          "name": "jo4v37",
+          "next": undefined,
+          "styles": "
+        margin: 2rem 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      <label
+        css={
+          Object {
+            "map": undefined,
+            "name": "w5m5m2",
+            "next": undefined,
+            "styles": "
+        display: block;
+        font-size: 1.8rem;
+        font-weight: bold;
+      ",
+            "toString": [Function],
+          }
+        }
+      >
+        What’s your supply charge? ($ per day)
+      </label>
+      <input
+        css={
+          Array [
+            Object {
+              "map": undefined,
+              "name": "hfi6s9",
+              "next": undefined,
+              "styles": "
+  appearance: none;
+  border: 0.1rem solid #808080;
+  color: #333333;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  padding: 0.5em;
+  width: 100%;
+",
+              "toString": [Function],
+            },
+            false,
+          ]
+        }
+        maxLength={7}
+        onChange={[Function]}
+        placeholder="1.1408"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      css={
+        Object {
+          "map": undefined,
+          "name": "jo4v37",
+          "next": undefined,
+          "styles": "
+        margin: 2rem 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      <label
+        css={
+          Object {
+            "map": undefined,
+            "name": "w5m5m2",
+            "next": undefined,
+            "styles": "
+        display: block;
+        font-size: 1.8rem;
+        font-weight: bold;
+      ",
+            "toString": [Function],
+          }
+        }
+      >
+        What’s your 
+         usage charge? ($ per kWh)
+      </label>
+      <input
+        css={
+          Array [
+            Object {
+              "map": undefined,
+              "name": "hfi6s9",
+              "next": undefined,
+              "styles": "
+  appearance: none;
+  border: 0.1rem solid #808080;
+  color: #333333;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  padding: 0.5em;
+  width: 100%;
+",
+              "toString": [Function],
+            },
+            false,
+          ]
+        }
+        maxLength={7}
+        onChange={[Function]}
+        placeholder="0.3072"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      css={
+        Object {
+          "map": undefined,
+          "name": "jo4v37",
+          "next": undefined,
+          "styles": "
+        margin: 2rem 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      <label
+        css={
+          Object {
+            "map": undefined,
+            "name": "w5m5m2",
+            "next": undefined,
+            "styles": "
+        display: block;
+        font-size: 1.8rem;
+        font-weight: bold;
+      ",
+            "toString": [Function],
+          }
+        }
+      >
+        Do these charges include GST?
+      </label>
+      <label
+        css={
+          Object {
+            "map": undefined,
+            "name": "is77hg",
+            "next": undefined,
+            "styles": "
+    display: inline-flex;
+    margin: 1.5rem 0;
+  ",
+            "toString": [Function],
+          }
+        }
+      >
+        <input
+          checked={false}
+          css={
+            Object {
+              "map": undefined,
+              "name": "1lnkwq",
+              "next": undefined,
+              "styles": "
+    height: 1.8rem;
+    margin: 0;
+    width: 1.8rem;
+  ",
+              "toString": [Function],
+            }
+          }
+          name="gst"
+          onChange={[Function]}
+          type="radio"
+          value="exclusive"
+        />
+        <span
+          css={
+            Object {
+              "map": undefined,
+              "name": "1kw0dgk",
+              "next": undefined,
+              "styles": "
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 0 2em 0 0.5em;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          GST is excluded
+        </span>
+      </label>
+      <label
+        css={
+          Object {
+            "map": undefined,
+            "name": "is77hg",
+            "next": undefined,
+            "styles": "
+    display: inline-flex;
+    margin: 1.5rem 0;
+  ",
+            "toString": [Function],
+          }
+        }
+      >
+        <input
+          checked={false}
+          css={
+            Object {
+              "map": undefined,
+              "name": "1lnkwq",
+              "next": undefined,
+              "styles": "
+    height: 1.8rem;
+    margin: 0;
+    width: 1.8rem;
+  ",
+              "toString": [Function],
+            }
+          }
+          name="gst"
+          onChange={[Function]}
+          type="radio"
+          value="inclusive"
+        />
+        <span
+          css={
+            Object {
+              "map": undefined,
+              "name": "1kw0dgk",
+              "next": undefined,
+              "styles": "
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 0 2em 0 0.5em;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          GST is included
+        </span>
+      </label>
+    </div>
+    <section
+      css={
+        Object {
+          "map": undefined,
+          "name": "dift5x",
+          "next": undefined,
+          "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+          "toString": [Function],
+        }
+      }
+    >
+      <span
+        aria-hidden={true}
+        css={
+          Object {
+            "map": undefined,
+            "name": "1d2w5zj",
+            "next": undefined,
+            "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+            "toString": [Function],
+          }
+        }
+        role="img"
+      >
+        🤷‍♀️
+      </span>
+    </section>
+  </div>
+  <footer
+    css={
+      Object {
+        "map": undefined,
+        "name": "xdao4p",
+        "next": undefined,
+        "styles": "
+    margin-top: 8rem;
+
+    p {
+      margin: 1em 0;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <p>
+      Pricing data sourced from
+       
+      <a
+        css={
+          Object {
+            "map": undefined,
+            "name": "15892p7",
+            "next": undefined,
+            "styles": "
+        color: #ff69b4;
+        text-decoration: underline;
+      ",
+            "toString": [Function],
+          }
+        }
+        href="https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/embedded-network-tariffs-including-caravan-parks/maximum-electricity-prices-embedded-networks-and-other-exempt-sellers-review-2020"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Maximum electricity prices for embedded networks and other exempt sellers review 2020
+      </a>
+      . This site is not affiliated with the ESC or any other government agency. No guarantee has been made to ensure the accuracy of the data. The data may be incorrect, out-of-date, or missing, and as such should not be used as a source of truth. For further information, please refer to the
+       
+      <a
+        css={
+          Object {
+            "map": undefined,
+            "name": "15892p7",
+            "next": undefined,
+            "styles": "
+        color: #ff69b4;
+        text-decoration: underline;
+      ",
+            "toString": [Function],
+          }
+        }
+        href="https://www.esc.vic.gov.au"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Essential Services Commission
+      </a>
+       
+      or your energy provider. Use of this form is at your own risk.
+    </p>
+    <p>
+      Built by
+       
+      <a
+        css={
+          Object {
+            "map": undefined,
+            "name": "15892p7",
+            "next": undefined,
+            "styles": "
+        color: #ff69b4;
+        text-decoration: underline;
+      ",
+            "toString": [Function],
+          }
+        }
+        href="https://christianvarga.com"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Christian Varga
+      </a>
+      .
+    </p>
+  </footer>
+</div>
+`;

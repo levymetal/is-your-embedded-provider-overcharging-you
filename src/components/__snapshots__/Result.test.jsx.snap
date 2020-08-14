@@ -1,0 +1,1059 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result ausnet renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "1109p9j",
+        "next": undefined,
+        "styles": "
+          color: #3cb371;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😸
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      Your rates seem to be acceptable.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.92360
+        </td>
+        <td>
+          $
+          1.14080
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+          (Block 1)
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.29270
+        </td>
+        <td>
+          $
+          0.30720
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh (Block 2)
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.32720
+        </td>
+        <td>
+          $
+          0.32720
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result default renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "1109p9j",
+        "next": undefined,
+        "styles": "
+          color: #3cb371;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😸
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      Your rates seem to be acceptable.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.92360
+        </td>
+        <td>
+          $
+          0.92360
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.29270
+        </td>
+        <td>
+          $
+          0.29270
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result gst exclusive renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "h7vb22",
+        "next": undefined,
+        "styles": "
+          color: #ff4500;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😿
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      You may be getting overcharged on both supply and usage.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          1.01596
+        </td>
+        <td>
+          $
+          0.92360
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.32197
+        </td>
+        <td>
+          $
+          0.29270
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result rorted on supply renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "h7vb22",
+        "next": undefined,
+        "styles": "
+          color: #ff4500;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😿
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      You may be getting overcharged on supply.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.98315
+        </td>
+        <td>
+          $
+          0.92360
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.29270
+        </td>
+        <td>
+          $
+          0.29270
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result rorted on usage renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "h7vb22",
+        "next": undefined,
+        "styles": "
+          color: #ff4500;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😿
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      You may be getting overcharged on usage.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.92360
+        </td>
+        <td>
+          $
+          0.92360
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.31853
+        </td>
+        <td>
+          $
+          0.29270
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result without charges renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "1109p9j",
+        "next": undefined,
+        "styles": "
+          color: #3cb371;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😸
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      Your rates seem to be acceptable.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.00000
+        </td>
+        <td>
+          $
+          0.92360
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "xf633i",
+              "next": undefined,
+              "styles": "
+    color: #3cb371;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.00000
+        </td>
+        <td>
+          $
+          0.29270
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result without gst renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <span
+    aria-hidden={true}
+    css={
+      Object {
+        "map": undefined,
+        "name": "1d2w5zj",
+        "next": undefined,
+        "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+        "toString": [Function],
+      }
+    }
+    role="img"
+  >
+    🤷‍♀️
+  </span>
+</section>
+`;
