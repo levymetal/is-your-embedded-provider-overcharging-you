@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "is-your-embedded-provider-overcharging-you",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A tool to determine if your embedded provider is overcharging you",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -11,21 +11,31 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "jest"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.34",
+    "@types/jest": "^26.0.9",
+    "babel-jest": "^26.3.0",
+    "babel-preset-gatsby": "^0.5.5",
     "gatsby": "^2.24.41",
+    "gatsby-plugin-emotion": "^4.3.10",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.4.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-test-renderer": "^16.13.1"
   },
   "devDependencies": {
     "prettier": "2.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/levymetal/is-your-embedded-provider-overcharging-you"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/levymetal/is-your-embedded-provider-overcharging-you/issues"
   }
 }
