@@ -154,10 +154,11 @@ exports[`Home renders correctly 1`] = `
           Array [
             Object {
               "map": undefined,
-              "name": "hfi6s9",
+              "name": "l9u2lu",
               "next": undefined,
               "styles": "
   appearance: none;
+  border-radius: 0;
   border: 0.1rem solid #808080;
   color: #333333;
   font-size: 1.8rem;
@@ -250,10 +251,11 @@ exports[`Home renders correctly 1`] = `
           Array [
             Object {
               "map": undefined,
-              "name": "hfi6s9",
+              "name": "l9u2lu",
               "next": undefined,
               "styles": "
   appearance: none;
+  border-radius: 0;
   border: 0.1rem solid #808080;
   color: #333333;
   font-size: 1.8rem;
@@ -341,10 +343,11 @@ exports[`Home renders correctly 1`] = `
           Array [
             Object {
               "map": undefined,
-              "name": "hfi6s9",
+              "name": "l9u2lu",
               "next": undefined,
               "styles": "
   appearance: none;
+  border-radius: 0;
   border: 0.1rem solid #808080;
   color: #333333;
   font-size: 1.8rem;
@@ -357,6 +360,7 @@ exports[`Home renders correctly 1`] = `
             false,
           ]
         }
+        inputMode="decimal"
         maxLength={7}
         onChange={[Function]}
         placeholder="1.1408"
@@ -400,10 +404,11 @@ exports[`Home renders correctly 1`] = `
           Array [
             Object {
               "map": undefined,
-              "name": "hfi6s9",
+              "name": "l9u2lu",
               "next": undefined,
               "styles": "
   appearance: none;
+  border-radius: 0;
   border: 0.1rem solid #808080;
   color: #333333;
   font-size: 1.8rem;
@@ -416,6 +421,7 @@ exports[`Home renders correctly 1`] = `
             false,
           ]
         }
+        inputMode="decimal"
         maxLength={7}
         onChange={[Function]}
         placeholder="0.3072"
