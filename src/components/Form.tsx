@@ -15,22 +15,27 @@ export default function Form() {
   const {fields} = useForm({
     fields: {
       customerType: {
+        name: 'customer-type',
         value: 'residential',
       },
       distributor: {
+        name: 'distributor',
         value: 'citipower',
       },
       supply: {
+        name: 'supply',
         maxLength: 7,
         value: '',
         validation: CHARGE_REGEX,
       },
       usage: {
+        name: 'usage',
         maxLength: 7,
         value: '',
         validation: CHARGE_REGEX,
       },
       usage2: {
+        name: 'usage2',
         maxLength: 7,
         value: '',
         validation: CHARGE_REGEX,
@@ -50,14 +55,14 @@ export default function Form() {
       `}
     >
       <Field>
-        <Label>What type of customer are you?</Label>
+        <Label htmlFor="customer-type">What type of customer are you?</Label>
         <Select {...fields.customerType}>
           <option value="residential">Residential</option>
           <option value="business">Small Business</option>
         </Select>
       </Field>
       <Field>
-        <Label>
+        <Label htmlFor="distributor">
           Who’s your distributor? (
           <Anchor href="https://www.energy.vic.gov.au/electricity/electricity-distributors" external>
             help
@@ -73,21 +78,21 @@ export default function Form() {
         </Select>
       </Field>
       <Field>
-        <Label>What’s your supply charge? ($ per day)</Label>
+        <Label htmlFor="supply">What’s your supply charge? ($ per day)</Label>
         <Input {...fields.supply} inputMode="decimal" placeholder="1.1408" />
       </Field>
       <Field>
-        <Label>What’s your {isAusnet && 'Block 1'} usage charge? ($ per kWh)</Label>
+        <Label htmlFor="usage">What’s your {isAusnet && 'Block 1'} usage charge? ($ per kWh)</Label>
         <Input {...fields.usage} inputMode="decimal" placeholder="0.3072" />
       </Field>
       {isAusnet && (
         <Field>
-          <Label>What’s your Block 2 usage charge? ($ per kWh)</Label>
+          <Label htmlFor="usage2">What’s your Block 2 usage charge? ($ per kWh)</Label>
           <Input {...fields.usage2} inputMode="decimal" placeholder="0.3272" />
         </Field>
       )}
       <Field>
-        <Label>Do these charges include GST?</Label>
+        <Label htmlFor="gst">Do these charges include GST?</Label>
         <RadioButton
           {...fields.gst}
           value="exclusive"

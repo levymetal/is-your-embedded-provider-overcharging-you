@@ -4,13 +4,14 @@ import {input} from '../styles/common';
 
 type Props = {
   children: ReactNode;
+  name: string;
   onChange: (event: ChangeEvent<HTMLSelectElement>) => void;
   value: string;
 };
 
-export default function Input({children, onChange, value}: Props) {
+export default function Input({children, name, onChange, value}: Props) {
   return (
-    <select css={styles.root} onBlur={onChange} onChange={onChange} value={value}>
+    <select css={styles.root} id={name} name={name} onBlur={onChange} onChange={onChange} value={value}>
       {children}
     </select>
   );

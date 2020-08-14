@@ -3,9 +3,10 @@ import {css} from '@emotion/core';
 
 type Props = {
   children: ReactNode;
+  htmlFor: string;
 };
 
-export default function Label({children}: Props) {
+export default function Label({children, htmlFor}: Props) {
   return (
     <label
       css={css`
@@ -13,6 +14,7 @@ export default function Label({children}: Props) {
         font-size: 1.8rem;
         font-weight: bold;
       `}
+      htmlFor={htmlFor}
     >
       {children}
     </label>

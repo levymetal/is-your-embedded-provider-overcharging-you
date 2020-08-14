@@ -146,6 +146,7 @@ exports[`Home renders correctly 1`] = `
             "toString": [Function],
           }
         }
+        htmlFor="customer-type"
       >
         What type of customer are you?
       </label>
@@ -180,6 +181,8 @@ exports[`Home renders correctly 1`] = `
             },
           ]
         }
+        id="customer-type"
+        name="customer-type"
         onBlur={[Function]}
         onChange={[Function]}
         value="residential"
@@ -223,6 +226,7 @@ exports[`Home renders correctly 1`] = `
             "toString": [Function],
           }
         }
+        htmlFor="distributor"
       >
         Who’s your distributor? (
         <a
@@ -277,6 +281,8 @@ exports[`Home renders correctly 1`] = `
             },
           ]
         }
+        id="distributor"
+        name="distributor"
         onBlur={[Function]}
         onChange={[Function]}
         value="citipower"
@@ -335,6 +341,7 @@ exports[`Home renders correctly 1`] = `
             "toString": [Function],
           }
         }
+        htmlFor="supply"
       >
         What’s your supply charge? ($ per day)
       </label>
@@ -360,8 +367,10 @@ exports[`Home renders correctly 1`] = `
             false,
           ]
         }
+        id="supply"
         inputMode="decimal"
         maxLength={7}
+        name="supply"
         onChange={[Function]}
         placeholder="1.1408"
         type="text"
@@ -395,6 +404,7 @@ exports[`Home renders correctly 1`] = `
             "toString": [Function],
           }
         }
+        htmlFor="usage"
       >
         What’s your 
          usage charge? ($ per kWh)
@@ -421,8 +431,10 @@ exports[`Home renders correctly 1`] = `
             false,
           ]
         }
+        id="usage"
         inputMode="decimal"
         maxLength={7}
+        name="usage"
         onChange={[Function]}
         placeholder="0.3072"
         type="text"
@@ -456,6 +468,7 @@ exports[`Home renders correctly 1`] = `
             "toString": [Function],
           }
         }
+        htmlFor="gst"
       >
         Do these charges include GST?
       </label>

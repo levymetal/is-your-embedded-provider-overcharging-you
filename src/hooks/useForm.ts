@@ -2,7 +2,7 @@ import {ChangeEvent} from 'react';
 import {useReducer} from 'react';
 
 type Field = {
-  name?: string;
+  name: string;
   maxLength?: number;
   value: any;
   validation?: RegExp;
