@@ -33,6 +33,7 @@ export const wrapper = css`
 
 export const input = css`
   appearance: none;
+  border-radius: 0;
   border: 0.1rem solid ${colors.gray};
   color: ${colors.mineShaft};
   font-size: 1.8rem;
