@@ -7,17 +7,20 @@ type Props = {
   inputMode?: 'decimal';
   isValid: boolean;
   maxLength?: number;
+  name: string;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string;
   value: string;
 };
 
-export default function Input({inputMode, isValid, maxLength, onChange, placeholder, value}: Props) {
+export default function Input({inputMode, isValid, maxLength, name, onChange, placeholder, value}: Props) {
   return (
     <input
       css={[input, !isValid && styles.error]}
+      id={name}
       inputMode={inputMode}
       maxLength={maxLength}
+      name={name}
       onChange={onChange}
       placeholder={placeholder}
       type="text"

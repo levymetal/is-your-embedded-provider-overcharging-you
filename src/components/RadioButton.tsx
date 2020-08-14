@@ -4,7 +4,7 @@ import {css} from '@emotion/core';
 type Props = {
   checked: boolean;
   label: string;
-  name?: string;
+  name: string;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
   value: string;
 };
