@@ -11,6 +11,7 @@ export default function Error404() {
     <div css={styles.root}>
       {/* @ts-ignore 'Helmet' cannot be used as a JSX component. */}
       <Helmet>
+        <html lang="en-GB" />
         <title>404 page not found</title>
       </Helmet>
       <Global styles={[reset, base]}></Global>

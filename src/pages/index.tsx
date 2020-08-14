@@ -12,6 +12,7 @@ export default function Home() {
     <div css={wrapper}>
       {/* @ts-ignore 'Helmet' cannot be used as a JSX component. */}
       <Helmet>
+        <html lang="en-GB" />
         <title>Is your embedded network provider overcharging you?</title>
         <meta
           name="description"
