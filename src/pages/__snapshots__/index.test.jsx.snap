@@ -615,9 +615,10 @@ exports[`Home renders correctly 1`] = `
     css={
       Object {
         "map": undefined,
-        "name": "xdao4p",
+        "name": "ak914f",
         "next": undefined,
         "styles": "
+    font-size: 1.2rem;
     margin-top: 8rem;
 
     p {
