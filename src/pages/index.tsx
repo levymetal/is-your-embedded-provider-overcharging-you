@@ -73,6 +73,7 @@ const styles = {
   `,
 
   footer: css`
+    font-size: 1.2rem;
     margin-top: 8rem;
 
     p {
