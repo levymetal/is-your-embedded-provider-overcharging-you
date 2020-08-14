@@ -48,12 +48,12 @@ export default function Home() {
             Maximum electricity prices for embedded networks and other exempt sellers review 2020
           </Anchor>
           . This site is not affiliated with the ESC or any other government agency. No guarantee has been made to
-          ensure the accuracy of the data. The data may be incorrect, out-of-date, or missing, and as such should not be
-          used as a source of truth. For further information, please refer to the{' '}
+          ensure the accuracy of the data. The data may be incorrect, out-of-date, or missing, and should not be used as
+          a source of truth. For further information, please refer to the{' '}
           <Anchor href="https://www.esc.vic.gov.au" external>
             Essential Services Commission
           </Anchor>{' '}
-          or your energy provider. Use of this form is at your own risk.
+          or your energy provider. Use of this site is at your own risk.
         </p>
         <p>
           Built by{' '}
