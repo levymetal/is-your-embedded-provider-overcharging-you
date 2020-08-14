@@ -74,16 +74,16 @@ export default function Form() {
       </Field>
       <Field>
         <Label>What’s your supply charge? ($ per day)</Label>
-        <Input {...fields.supply} placeholder="1.1408" />
+        <Input {...fields.supply} inputMode="decimal" placeholder="1.1408" />
       </Field>
       <Field>
         <Label>What’s your {isAusnet && 'Block 1'} usage charge? ($ per kWh)</Label>
-        <Input {...fields.usage} placeholder="0.3072" />
+        <Input {...fields.usage} inputMode="decimal" placeholder="0.3072" />
       </Field>
       {isAusnet && (
         <Field>
           <Label>What’s your Block 2 usage charge? ($ per kWh)</Label>
-          <Input {...fields.usage2} placeholder="0.3272" />
+          <Input {...fields.usage2} inputMode="decimal" placeholder="0.3272" />
         </Field>
       )}
       <Field>
