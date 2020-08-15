@@ -9,7 +9,7 @@ import RadioButton from './RadioButton';
 import Result from './Result';
 import Select from './Select';
 
-const CHARGE_REGEX = /^\$?\d+\.?\d*$/;
+const CHARGE_REGEX = /^\$?\.?\d+\.?\d*$/;
 
 export default function Form() {
   const {fields} = useForm({
