@@ -62,6 +62,7 @@ exports[`Result ausnet renders correctly 1`] = `
       }
     >
       Your rates seem to be acceptable.
+       
     </p>
   </div>
   <table
@@ -254,6 +255,7 @@ exports[`Result default renders correctly 1`] = `
       }
     >
       Your rates seem to be acceptable.
+       
     </p>
   </div>
   <table
@@ -420,6 +422,8 @@ exports[`Result gst exclusive renders correctly 1`] = `
       }
     >
       You may be getting overcharged on both supply and usage.
+       
+      This could be costing you around $151 a year.
     </p>
   </div>
   <table
@@ -586,6 +590,8 @@ exports[`Result rorted on supply renders correctly 1`] = `
       }
     >
       You may be getting overcharged on supply.
+       
+      This could be costing you around $22 a year.
     </p>
   </div>
   <table
@@ -752,6 +758,8 @@ exports[`Result rorted on usage renders correctly 1`] = `
       }
     >
       You may be getting overcharged on usage.
+       
+      This could be costing you around $103 a year.
     </p>
   </div>
   <table
@@ -918,6 +926,7 @@ exports[`Result without charges renders correctly 1`] = `
       }
     >
       Your rates seem to be acceptable.
+       
     </p>
   </div>
   <table

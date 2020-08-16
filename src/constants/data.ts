@@ -4,11 +4,13 @@ export const PRICING_DATA = {
       supply: 1.1408,
       usage: 0.3072, // block 1
       usage2: 0.3272, // block 2
+      block1AnnualKWh: 1020 * 4, // up to 1020kWh used in a quarterly period
     },
     business: {
       supply: 1.1408,
       usage: 0.3407, // block 1
       usage2: 0.3795, // block 2
+      block1AnnualKWh: 1020 * 4, // up to 1020kWh used in a quarterly period
     },
   },
   citipower: {
