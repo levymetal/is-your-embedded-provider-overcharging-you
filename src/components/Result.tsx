@@ -1,7 +1,7 @@
 import React from 'react';
 import {css} from '@emotion/core';
 import {PRICING_DATA} from '../constants/data';
-import {format, getChargesIncGst, getRorts} from '../lib/helper';
+import {format, getChargesIncGst, getRorts, getCost} from '../lib/helper';
 import {colors} from '../styles/colors';
 import Paragraph from './Paragraph';
 
@@ -19,6 +19,7 @@ export default function Result({customerType, distributor, supply, usage, usage2
   const prices = PRICING_DATA[distributor][customerType];
   const charges = getChargesIncGst(gst === 'inclusive', supply, usage, usage2);
   const rorts = getRorts(charges, prices);
+  const cost = getCost(customerType, charges, prices);
 
   const message =
     rorts.supply && rorts.anyUsage
@@ -29,6 +30,8 @@ export default function Result({customerType, distributor, supply, usage, usage2
       ? 'You may be getting overcharged on usage.'
       : 'Your rates seem to be acceptable.';
 
+  const costMessage = cost ? `This could be costing you around $${format(cost, 0)} a year.` : null;
+
   return gst && (charges.supply || charges.usage || charges.usage2) ? (
     <section css={styles.root}>
       <div
@@ -37,7 +40,9 @@ export default function Result({customerType, distributor, supply, usage, usage2
         `}
       >
         <Emoji symbol={rorts.supply || rorts.anyUsage ? '😿' : '😸'} />
-        <Paragraph>{message}</Paragraph>
+        <Paragraph>
+          {message} {costMessage}
+        </Paragraph>
       </div>
       <table css={styles.table}>
         <thead>
@@ -58,14 +63,14 @@ export default function Result({customerType, distributor, supply, usage, usage2
             <td css={rorts.usage ? styles.red : styles.green}>${format(charges.usage)}</td>
             <td>${format(prices.usage)}</td>
           </tr>
-          {isAusnet && (
+          {isAusnet ? (
             <tr>
               <td>Usage / kWh (Block 2)</td>
               <td css={rorts.usage2 ? styles.red : styles.green}>${format(charges.usage2)}</td>
               {/* @ts-ignore */}
               <td>${format(prices.usage2)}</td>
             </tr>
-          )}
+          ) : null}
         </tbody>
       </table>
     </section>

@@ -1,6 +1,20 @@
-import {parse, format, getChargesIncGst, getRorts} from './helper';
+import {round, parse, format, getChargesIncGst, getRorts, getCost} from './helper';
 
 describe('helper', () => {
+  describe('round', () => {
+    it('rounds a number to 5 decimal places by default', () => {
+      expect(round(8.234626551)).toEqual(8.23463);
+    });
+
+    it('rounds a number to the precision arg', () => {
+      expect(round(726.23461, 1)).toEqual(726.2);
+    });
+
+    it('rounds floats correctly', () => {
+      expect(round(3 * 1.1)).toEqual(3.3);
+    });
+  });
+
   describe('parse', () => {
     it('returns a number with valid input', () => {
       expect(parse('5')).toEqual(5);
@@ -12,18 +26,22 @@ describe('helper', () => {
   });
 
   describe('format', () => {
-    it('formats a number to 5 decimal places', () => {
+    it('formats a number to 5 decimal places by default', () => {
       expect(format(0.37)).toEqual('0.37000');
+    });
+
+    it('formats a number to the precision arg', () => {
+      expect(format(0.332, 2)).toEqual('0.33');
     });
   });
 
   describe('getChargesIncGst', () => {
     it('adds gst to charges when gstInclusive is false', () => {
-      expect(getChargesIncGst(false, '1', '2', '4')).toEqual({supply: 1.1, usage: 2.2, usage2: 4.4});
+      expect(getChargesIncGst(false, '1', '2', '3')).toEqual({supply: 1.1, usage: 2.2, usage2: 3.3});
     });
 
     it('does not add gst to charges when gstInclusive is true', () => {
-      expect(getChargesIncGst(true, '1', '2', '4')).toEqual({supply: 1, usage: 2, usage2: 4});
+      expect(getChargesIncGst(true, '1', '2', '3')).toEqual({supply: 1, usage: 2, usage2: 3});
     });
   });
 
@@ -68,6 +86,10 @@ describe('helper', () => {
         expect(getRorts(charges, {...prices, usage2: 1})).toHaveProperty('usage2', false);
       });
 
+      it('returns false when the price does not have usage2', () => {
+        expect(getRorts({...charges, usage2: 1}, {...prices})).toHaveProperty('usage2', true);
+      });
+
       it('returns true when the charge is greater than the price', () => {
         expect(getRorts({...charges, usage2: 1}, prices)).toHaveProperty('usage2', true);
       });
@@ -88,6 +110,43 @@ describe('helper', () => {
 
       it('returns true when usage2 is greater than the price', () => {
         expect(getRorts({...charges, usage2: 1}, prices)).toHaveProperty('anyUsage', true);
+      });
+    });
+  });
+
+  describe('getCost', () => {
+    const charges = {supply: 0, usage: 0, usage2: 0};
+    const prices = {supply: 0, usage: 0, usage2: 0};
+
+    it('returns cost on supply', () => {
+      expect(getCost('residential', {...charges, supply: 1}, prices)).toEqual(365);
+    });
+
+    describe('residential', () => {
+      it('returns cost on usage', () => {
+        expect(getCost('residential', {...charges, usage: 1}, prices)).toEqual(4000);
+      });
+
+      describe('ausnet', () => {
+        it('returns cost on usage', () => {
+          expect(
+            getCost('residential', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
+          ).toEqual(4000);
+        });
+      });
+    });
+
+    describe('business', () => {
+      it('returns cost on usage', () => {
+        expect(getCost('business', {...charges, usage: 1}, prices)).toEqual(20000);
+      });
+
+      describe('ausnet', () => {
+        it('returns cost on usage', () => {
+          expect(
+            getCost('business', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
+          ).toEqual(35920);
+        });
       });
     });
   });

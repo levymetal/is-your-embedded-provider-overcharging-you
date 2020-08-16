@@ -47,9 +47,10 @@ export default function Home() {
           >
             Maximum electricity prices for embedded networks and other exempt sellers review 2020
           </Anchor>
-          . This site is not affiliated with the ESC or any other government agency. No guarantee has been made to
-          ensure the accuracy of the data. The data may be incorrect, out-of-date, or missing, and should not be used as
-          a source of truth. For further information, please refer to the{' '}
+          . Cost based on 4,000kWh/year for residential and 20,000kWh/year for business. This site is not affiliated
+          with the ESC or any other government agency. No guarantee has been made to ensure the accuracy of the data.
+          The data may be incorrect, out-of-date, or missing, and should not be used as a source of truth. For further
+          information, please refer to the{' '}
           <Anchor href="https://www.esc.vic.gov.au" external>
             Essential Services Commission
           </Anchor>{' '}
