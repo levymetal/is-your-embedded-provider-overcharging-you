@@ -42,10 +42,10 @@ export default function Home() {
         <p>
           Pricing data sourced from{' '}
           <Anchor
-            href="https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/embedded-network-tariffs-including-caravan-parks/maximum-electricity-prices-embedded-networks-and-other-exempt-sellers-review-2020"
+            href="https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/victorian-default-offer"
             external
           >
-            Maximum electricity prices for embedded networks and other exempt sellers review 2020
+            Victorian Default Offer - Essential Services Commission
           </Anchor>
           . Cost based on 4,000kWh/year for residential and 20,000kWh/year for business. This site is not affiliated
           with the ESC or any other government agency. No guarantee has been made to ensure the accuracy of the data.
