@@ -1,5 +1,5 @@
 import React, {ChangeEvent, ReactNode} from 'react';
-import {css} from '@emotion/core';
+import {css} from '@emotion/react';
 import {input} from '../styles/common';
 
 type Props = {

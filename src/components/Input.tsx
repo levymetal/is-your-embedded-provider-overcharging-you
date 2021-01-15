@@ -1,5 +1,5 @@
 import React, {ChangeEvent} from 'react';
-import {css} from '@emotion/core';
+import {css} from '@emotion/react';
 import {input} from '../styles/common';
 import {colors} from '../styles/colors';
 

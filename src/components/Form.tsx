@@ -1,5 +1,5 @@
 import React from 'react';
-import {css} from '@emotion/core';
+import {css} from '@emotion/react';
 import useForm from '../hooks/useForm';
 import Anchor from './Anchor';
 import Field from './Field';
