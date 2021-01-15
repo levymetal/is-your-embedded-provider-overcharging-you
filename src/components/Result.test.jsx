@@ -6,9 +6,9 @@ describe('Result', () => {
   const props = {
     customerType: 'residential',
     distributor: 'united',
-    supply: '0.92360',
-    usage: '0.29270',
-    usage2: '0.32720',
+    supply: '0.98240',
+    usage: '0.24000',
+    usage2: '0.28820',
     gst: 'inclusive',
   };
 
@@ -26,13 +26,13 @@ describe('Result', () => {
 
   describe('rorted on supply', () => {
     it('renders correctly', () => {
-      expect(renderer.create(<Result {...props} supply="0.98315" />).toJSON()).toMatchSnapshot();
+      expect(renderer.create(<Result {...props} supply="1.04195" />).toJSON()).toMatchSnapshot();
     });
   });
 
   describe('rorted on usage', () => {
     it('renders correctly', () => {
-      expect(renderer.create(<Result {...props} usage="0.31853" />).toJSON()).toMatchSnapshot();
+      expect(renderer.create(<Result {...props} usage="0.26583" />).toJSON()).toMatchSnapshot();
     });
   });
 
