@@ -49,11 +49,7 @@ export default function Form() {
   const isAusnet = fields.distributor.value === 'ausnet';
 
   return (
-    <div
-      css={css`
-        margin: 6rem 0;
-      `}
-    >
+    <div css={styles.root}>
       <Field>
         <Label htmlFor="customer-type">What type of customer are you?</Label>
         <Select {...fields.customerType}>
@@ -62,13 +58,14 @@ export default function Form() {
         </Select>
       </Field>
       <Field>
-        <Label htmlFor="distributor">
-          Who’s your distributor? (
+        <Label htmlFor="distributor">Who’s your distributor?</Label>
+        <p css={styles.explainer}>
+          This is <strong>not</strong> your energy provider.{' '}
           <Anchor href="https://www.energy.vic.gov.au/electricity/electricity-distributors" external>
-            help
-          </Anchor>
-          )
-        </Label>
+            Click here
+          </Anchor>{' '}
+          to find your distributor
+        </p>
         <Select {...fields.distributor}>
           <option value="ausnet">AusNet Services</option>
           <option value="citipower">CitiPower</option>
@@ -117,3 +114,18 @@ export default function Form() {
     </div>
   );
 }
+
+const styles = {
+  root: css`
+    margin: 6rem 0;
+  `,
+
+  explainer: css`
+    font-size: 1.4rem;
+    margin-top: 1rem;
+
+    strong {
+      font-weight: bold;
+    }
+  `,
+};

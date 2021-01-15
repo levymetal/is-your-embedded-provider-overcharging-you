@@ -110,11 +110,11 @@ exports[`Home renders correctly 1`] = `
     css={
       Object {
         "map": undefined,
-        "name": "1zfc3u",
+        "name": "jpbnhn",
         "next": undefined,
         "styles": "
-        margin: 6rem 0;
-      ",
+    margin: 6rem 0;
+  ",
         "toString": [Function],
       }
     }
@@ -228,7 +228,32 @@ exports[`Home renders correctly 1`] = `
         }
         htmlFor="distributor"
       >
-        Who’s your distributor? (
+        Who’s your distributor?
+      </label>
+      <p
+        css={
+          Object {
+            "map": undefined,
+            "name": "e1vszu",
+            "next": undefined,
+            "styles": "
+    font-size: 1.4rem;
+    margin-top: 1rem;
+
+    strong {
+      font-weight: bold;
+    }
+  ",
+            "toString": [Function],
+          }
+        }
+      >
+        This is 
+        <strong>
+          not
+        </strong>
+         your energy provider.
+         
         <a
           css={
             Object {
@@ -246,10 +271,11 @@ exports[`Home renders correctly 1`] = `
           rel="noreferrer noopener"
           target="_blank"
         >
-          help
+          Click here
         </a>
-        )
-      </label>
+         
+        to find your distributor
+      </p>
       <select
         css={
           Array [
