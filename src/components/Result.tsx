@@ -1,5 +1,5 @@
 import React from 'react';
-import {css} from '@emotion/core';
+import {css} from '@emotion/react';
 import {PRICING_DATA} from '../constants/data';
 import {format, getChargesIncGst, getRorts, getCost} from '../lib/helper';
 import {colors} from '../styles/colors';

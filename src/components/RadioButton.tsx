@@ -1,5 +1,5 @@
 import React, {ChangeEvent} from 'react';
-import {css} from '@emotion/core';
+import {css} from '@emotion/react';
 
 type Props = {
   checked: boolean;

@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import {css} from '@emotion/core';
+import {css} from '@emotion/react';
 import {colors} from '../styles/colors';
 
 type Props = {
