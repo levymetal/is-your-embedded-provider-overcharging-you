@@ -10,7 +10,7 @@ describe('Result', () => {
     usage: '0.2242',
     usage2: '0.2811',
     gst: 'inclusive',
-  };
+  } as const;
 
   describe('default', () => {
     it('renders correctly', () => {
