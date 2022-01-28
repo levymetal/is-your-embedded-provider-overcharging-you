@@ -1,56 +1,56 @@
 export const PRICING_DATA = {
   ausnet: {
     residential: {
-      supply: 1.1643,
-      usage: 0.2703, // block 1
-      usage2: 0.2882, // block 2
+      supply: 1.26,
+      usage: 0.2649, // block 1
+      usage2: 0.2811, // block 2
       block1AnnualKWh: 1020 * 4, // up to 1020kWh used in a quarterly period
     },
     business: {
-      supply: 1.1643,
-      usage: 0.2955, // block 1
-      usage2: 0.3302, // block 2
+      supply: 1.3356,
+      usage: 0.3016, // block 1
+      usage2: 0.3335, // block 2
       block1AnnualKWh: 1020 * 4, // up to 1020kWh used in a quarterly period
     },
   },
   citipower: {
     residential: {
-      supply: 1.133,
-      usage: 0.214,
+      supply: 1.2023,
+      usage: 0.2171,
     },
     business: {
-      supply: 1.3567,
-      usage: 0.2218,
+      supply: 1.3876,
+      usage: 0.2141,
     },
   },
   jemena: {
     residential: {
-      supply: 1.0675,
-      usage: 0.2344,
+      supply: 1.1491,
+      usage: 0.2307,
     },
     business: {
-      supply: 1.2264,
-      usage: 0.2405,
+      supply: 1.3848,
+      usage: 0.2457,
     },
   },
   powercor: {
     residential: {
-      supply: 1.2918,
-      usage: 0.224,
+      supply: 1.3459,
+      usage: 0.2235,
     },
     business: {
-      supply: 1.4197,
-      usage: 0.2288,
+      supply: 1.4613,
+      usage: 0.2257,
     },
   },
   united: {
     residential: {
-      supply: 0.9824,
-      usage: 0.24,
+      supply: 1.0634,
+      usage: 0.2242,
     },
     business: {
-      supply: 1.0463,
-      usage: 0.2444,
+      supply: 1.1521,
+      usage: 0.2225,
     },
   },
 };
