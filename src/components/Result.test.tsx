@@ -6,9 +6,9 @@ describe('Result', () => {
   const props = {
     customerType: 'residential',
     distributor: 'united',
-    supply: '1.0634',
-    usage: '0.2242',
-    usage2: '0.2811',
+    supply: '1.0753',
+    usage: '0.2327',
+    usage2: '0.3070',
     gst: 'inclusive',
   } as const;
 

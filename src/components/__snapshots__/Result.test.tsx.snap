@@ -130,11 +130,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          1.06340
+          1.07530
         </td>
         <td>
           $
-          1.26000
+          1.29940
         </td>
       </tr>
       <tr>
@@ -156,11 +156,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.22420
+          0.23270
         </td>
         <td>
           $
-          0.26490
+          0.28930
         </td>
       </tr>
       <tr>
@@ -181,11 +181,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.28110
+          0.30700
         </td>
         <td>
           $
-          0.28110
+          0.30700
         </td>
       </tr>
     </tbody>
@@ -323,11 +323,11 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          1.06340
+          1.07530
         </td>
         <td>
           $
-          1.06340
+          1.07530
         </td>
       </tr>
       <tr>
@@ -348,11 +348,11 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          0.22420
+          0.23270
         </td>
         <td>
           $
-          0.22420
+          0.23270
         </td>
       </tr>
     </tbody>
@@ -423,7 +423,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
     >
       You may be getting overcharged on both supply and usage.
        
-      This could be costing you around $129 a year.
+      This could be costing you around $132 a year.
     </p>
   </div>
   <table
@@ -491,11 +491,11 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          1.16974
+          1.18283
         </td>
         <td>
           $
-          1.06340
+          1.07530
         </td>
       </tr>
       <tr>
@@ -516,11 +516,11 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          0.24662
+          0.25597
         </td>
         <td>
           $
-          0.22420
+          0.23270
         </td>
       </tr>
     </tbody>
@@ -659,11 +659,11 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          1.12295
+          1.13485
         </td>
         <td>
           $
-          1.06340
+          1.07530
         </td>
       </tr>
       <tr>
@@ -684,11 +684,11 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          0.22420
+          0.23270
         </td>
         <td>
           $
-          0.22420
+          0.23270
         </td>
       </tr>
     </tbody>
@@ -827,11 +827,11 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          1.06340
+          1.07530
         </td>
         <td>
           $
-          1.06340
+          1.07530
         </td>
       </tr>
       <tr>
@@ -852,11 +852,11 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          0.25003
+          0.25853
         </td>
         <td>
           $
-          0.22420
+          0.23270
         </td>
       </tr>
     </tbody>
@@ -998,7 +998,7 @@ exports[`Result without charges renders correctly 1`] = `
         </td>
         <td>
           $
-          1.06340
+          1.07530
         </td>
       </tr>
       <tr>
@@ -1023,7 +1023,7 @@ exports[`Result without charges renders correctly 1`] = `
         </td>
         <td>
           $
-          0.22420
+          0.23270
         </td>
       </tr>
     </tbody>
