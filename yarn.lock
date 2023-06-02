@@ -1304,6 +1304,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.20.13":
+  version: 7.22.3
+  resolution: "@babel/runtime@npm:7.22.3"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: d5eac992aadc71b494d1f7da38a8f03879208173b70042fe360546dcb517801ffb8470637a8dea4e50a325b4a566ad6f0ed4b85853f28b13adbf40008157ce32
+  languageName: node
+  linkType: hard
+
 "@babel/standalone@npm:^7.12.6":
   version: 7.12.12
   resolution: "@babel/standalone@npm:7.12.12"
@@ -7608,8 +7617,8 @@ fsevents@^1.2.7:
   linkType: hard
 
 "gatsby-plugin-emotion@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "gatsby-plugin-emotion@npm:5.3.0"
+  version: 5.4.0
+  resolution: "gatsby-plugin-emotion@npm:5.4.0"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@emotion/babel-preset-css-prop": ^11.0.0
@@ -7617,7 +7626,7 @@ fsevents@^1.2.7:
     "@babel/core": ^7.11.6
     "@emotion/react": ^11.0.0
     gatsby: ^2.0.0
-  checksum: d951cf91e8180f7d267cd1ae391d7ff6e4c3394e5e9b6834ab2c2bb3adcc35000ff2bd1dee34a8095c7580829f5ed1d28403742bf2ae72dab6b04cdfcbe9ff46
+  checksum: 3977da67a5291da60b6f000d9d5ab1821aef7ba80aafa5730187abd0396aa96e1c694b37614437ce0297f4d84337ba8859679f6011fbc27c05c782ae68e6cec3
   languageName: node
   linkType: hard
 
@@ -7632,6 +7641,20 @@ fsevents@^1.2.7:
     react: ^16.4.2 || ^17.0.0
     react-dom: ^16.4.2 || ^17.0.0
   checksum: 9ac1be65e78302bde117ce492b2de34e02cb23dc208748f796bec5a2e12d8c6821ab8e18bc8715b2af3ebf36775de89a334359554624f01062506247516f5509
+  languageName: node
+  linkType: hard
+
+"gatsby-plugin-google-gtag@npm:^5.10.0":
+  version: 5.10.0
+  resolution: "gatsby-plugin-google-gtag@npm:5.10.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    minimatch: ^3.1.2
+  peerDependencies:
+    gatsby: ^5.0.0-next
+    react: ^18.0.0 || ^0.0.0
+    react-dom: ^18.0.0 || ^0.0.0
+  checksum: 927de5330a5a7457631b4614aa21b10ad07b0cd061d284976dc6c203606cbbc818cc635e49d7be35147cfa518c860841a3322efa60871b3615b0e5a3cd8282cd
   languageName: node
   linkType: hard
 
@@ -9826,6 +9849,7 @@ fsevents@^1.2.7:
     gatsby: ^2.31.1
     gatsby-plugin-emotion: ^5.3.0
     gatsby-plugin-google-analytics: ^2.10.0
+    gatsby-plugin-google-gtag: ^5.10.0
     gatsby-plugin-react-helmet: ^3.9.0
     identity-obj-proxy: ^3.0.0
     jest: ^26.6.3
@@ -11422,6 +11446,15 @@ fsevents@^1.2.7:
   dependencies:
     brace-expansion: ^1.1.7
   checksum: 47eab9263962cacd5733e274ecad2d8e54b0f8e124ba35ae69189e296058f634a4967b87a98954f86fa5c830ff177caf827ce0136d28717ed3232951fb4fae62
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "minimatch@npm:3.1.2"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: 1a7584a6de279285a62c3b0ab2f3effde12566a5df983fb2a4f2eb9262f44238c7e2c692f202b075dc3df79c9a8479a22833cc28c841e98fa3ef989b1ceb264e
   languageName: node
   linkType: hard
 
@@ -13993,6 +14026,13 @@ fsevents@^1.2.7:
   version: 1.4.2
   resolution: "regenerate@npm:1.4.2"
   checksum: 54275a99effd8a439bcdd88942b61f68a769133df841e90d94df9ae7c250cb6537c0a28dd913116539772b3415edbcb3c8d81c22275595d3755cf0353976dfa4
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: b7c850f32500838961c073b885f0b18671867e2f3626d0c6de18fc269147f57d1777fe42d045cb1b9c0dc31a69a5c456d684afeb9adb05cbd788dac521403e68
   languageName: node
   linkType: hard
 
