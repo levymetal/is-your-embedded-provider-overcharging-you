@@ -134,7 +134,7 @@ exports[`Result ausnet renders correctly 1`] = `
         </td>
         <td>
           $
-          1.29940
+          1.32510
         </td>
       </tr>
       <tr>
@@ -160,7 +160,7 @@ exports[`Result ausnet renders correctly 1`] = `
         </td>
         <td>
           $
-          0.28930
+          0.38510
         </td>
       </tr>
       <tr>
@@ -185,7 +185,7 @@ exports[`Result ausnet renders correctly 1`] = `
         </td>
         <td>
           $
-          0.30700
+          0.39550
         </td>
       </tr>
     </tbody>
@@ -327,7 +327,7 @@ exports[`Result default renders correctly 1`] = `
         </td>
         <td>
           $
-          1.07530
+          1.08140
         </td>
       </tr>
       <tr>
@@ -352,7 +352,7 @@ exports[`Result default renders correctly 1`] = `
         </td>
         <td>
           $
-          0.23270
+          0.31740
         </td>
       </tr>
     </tbody>
@@ -421,9 +421,9 @@ exports[`Result gst exclusive renders correctly 1`] = `
         }
       }
     >
-      You may be getting overcharged on both supply and usage.
+      You may be getting overcharged on supply.
        
-      This could be costing you around $132 a year.
+      This could be costing you around $37 a year.
     </p>
   </div>
   <table
@@ -495,7 +495,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
         </td>
         <td>
           $
-          1.07530
+          1.08140
         </td>
       </tr>
       <tr>
@@ -506,10 +506,10 @@ exports[`Result gst exclusive renders correctly 1`] = `
           css={
             Object {
               "map": undefined,
-              "name": "1xs99n",
+              "name": "xf633i",
               "next": undefined,
               "styles": "
-    color: #ff4500;
+    color: #3cb371;
   ",
               "toString": [Function],
             }
@@ -520,7 +520,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
         </td>
         <td>
           $
-          0.23270
+          0.31740
         </td>
       </tr>
     </tbody>
@@ -591,7 +591,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
     >
       You may be getting overcharged on supply.
        
-      This could be costing you around $22 a year.
+      This could be costing you around $20 a year.
     </p>
   </div>
   <table
@@ -663,7 +663,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
         </td>
         <td>
           $
-          1.07530
+          1.08140
         </td>
       </tr>
       <tr>
@@ -688,7 +688,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
         </td>
         <td>
           $
-          0.23270
+          0.31740
         </td>
       </tr>
     </tbody>
@@ -715,10 +715,10 @@ exports[`Result rorted on usage renders correctly 1`] = `
     css={
       Object {
         "map": undefined,
-        "name": "h7vb22",
+        "name": "1109p9j",
         "next": undefined,
         "styles": "
-          color: #ff4500;
+          color: #3cb371;
         ",
         "toString": [Function],
       }
@@ -740,7 +740,7 @@ exports[`Result rorted on usage renders correctly 1`] = `
       }
       role="img"
     >
-      😿
+      😸
     </span>
     <p
       css={
@@ -757,9 +757,8 @@ exports[`Result rorted on usage renders correctly 1`] = `
         }
       }
     >
-      You may be getting overcharged on usage.
+      Your rates seem to be acceptable.
        
-      This could be costing you around $103 a year.
     </p>
   </div>
   <table
@@ -831,7 +830,7 @@ exports[`Result rorted on usage renders correctly 1`] = `
         </td>
         <td>
           $
-          1.07530
+          1.08140
         </td>
       </tr>
       <tr>
@@ -842,10 +841,10 @@ exports[`Result rorted on usage renders correctly 1`] = `
           css={
             Object {
               "map": undefined,
-              "name": "1xs99n",
+              "name": "xf633i",
               "next": undefined,
               "styles": "
-    color: #ff4500;
+    color: #3cb371;
   ",
               "toString": [Function],
             }
@@ -856,7 +855,7 @@ exports[`Result rorted on usage renders correctly 1`] = `
         </td>
         <td>
           $
-          0.23270
+          0.31740
         </td>
       </tr>
     </tbody>
@@ -998,7 +997,7 @@ exports[`Result without charges renders correctly 1`] = `
         </td>
         <td>
           $
-          1.07530
+          1.08140
         </td>
       </tr>
       <tr>
@@ -1023,7 +1022,7 @@ exports[`Result without charges renders correctly 1`] = `
         </td>
         <td>
           $
-          0.23270
+          0.31740
         </td>
       </tr>
     </tbody>
