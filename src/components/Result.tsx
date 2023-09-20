@@ -1,7 +1,7 @@
 import React from 'react';
 import {css} from '@emotion/react';
 import {PRICING_DATA} from '../constants/data';
-import {format, getChargesIncGst, getRorts, getCost} from '../lib/helper';
+import {format, getChargesIncGst, getRorts, getDelta} from '../lib/helper';
 import {colors} from '../styles/colors';
 import Paragraph from './Paragraph';
 
@@ -19,29 +19,38 @@ export default function Result({customerType, distributor, supply, usage, usage2
   const prices = PRICING_DATA[distributor][customerType];
   const charges = getChargesIncGst(gst === 'inclusive', supply, usage, usage2);
   const rorts = getRorts(charges, prices);
-  const cost = getCost(customerType, charges, prices);
+  const delta = getDelta(customerType, charges, prices);
 
   const message =
     rorts.supply && rorts.anyUsage
       ? 'You may be getting overcharged on both supply and usage.'
+      : rorts.supply && delta < 0
+      ? 'You may be getting overcharged on supply, but your usage charge looks good.'
+      : rorts.anyUsage && delta < 0
+      ? 'You may be getting overcharged on usage, but your supply charge looks good.'
       : rorts.supply
       ? 'You may be getting overcharged on supply.'
       : rorts.anyUsage
       ? 'You may be getting overcharged on usage.'
       : 'Your rates seem to be acceptable.';
 
-  const costMessage = cost ? `This could be costing you around $${format(cost, 0)} a year.` : null;
+  const deltaMessage =
+    delta > 0
+      ? `This could be costing you around $${format(delta, 0)} a year.`
+      : delta < 0
+      ? `You’re saving around $${format(Math.abs(delta), 0)} per year compared to the Victorian Default Offer.`
+      : null;
 
   return gst && (charges.supply || charges.usage || charges.usage2) ? (
     <section css={styles.root}>
       <div
         css={css`
-          color: ${rorts.supply || rorts.anyUsage ? colors.vermilion : colors.oceanGreen};
+          color: ${delta > 0 ? colors.vermilion : colors.oceanGreen};
         `}
       >
-        <Emoji symbol={rorts.supply || rorts.anyUsage ? '😿' : '😸'} />
+        <Emoji symbol={delta > 0 ? '😿' : '😸'} />
         <Paragraph>
-          {message} {costMessage}
+          {message} {deltaMessage}
         </Paragraph>
       </div>
       <table css={styles.table}>

@@ -36,7 +36,7 @@ export function getChargesIncGst(gstInclusive: boolean, supply: string, usage: s
 
 export function getRorts(charges: Charges, prices: Prices) {
   const usage = charges.usage > prices.usage;
-  const usage2 = typeof prices.usage2 !== 'undefined' && charges.usage2 > prices.usage2;
+  const usage2 = prices.usage2 != null && charges.usage2 > prices.usage2;
 
   return {
     supply: charges.supply > prices.supply,
@@ -46,20 +46,25 @@ export function getRorts(charges: Charges, prices: Prices) {
   };
 }
 
-export function getCost(customerType: 'residential' | 'business', charges: Charges, prices: Prices) {
+/**
+ * Returns the combined difference in cost for both supply and usage, as a whole
+ * number. Positive if combined charges exceed the default offer, negative if
+ * combined charges are less than the default offer.
+ */
+export function getDelta(customerType: 'residential' | 'business', charges: Charges, prices: Prices): number {
   const averageKWh = customerType === 'residential' ? 4000 : 20000;
   const supply = (charges.supply - prices.supply) * 365;
   let kWh = averageKWh;
   let kWh2 = 0;
 
-  if (typeof prices.block1AnnualKWh !== 'undefined' && averageKWh > prices.block1AnnualKWh) {
+  if (prices.block1AnnualKWh != null && averageKWh > prices.block1AnnualKWh) {
     kWh = prices.block1AnnualKWh;
     kWh2 = averageKWh - kWh;
   }
 
   const usage = (charges.usage - prices.usage) * kWh;
-  const usage2 = (charges.usage2 - prices.usage2) * kWh2 || 0;
-  const cost = round(Math.max(supply, 0), 0) + round(Math.max(usage + usage2, 0), 0);
+  const usage2 = (charges.usage2 - (prices.usage2 ?? 0)) * kWh2;
+  const cost = round(supply + usage + usage2, 0);
 
   return cost;
 }

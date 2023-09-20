@@ -1,4 +1,4 @@
-import {round, parse, format, getChargesIncGst, getRorts, getCost} from './helper';
+import {round, parse, format, getChargesIncGst, getRorts, getDelta} from './helper';
 
 describe('helper', () => {
   describe('round', () => {
@@ -114,23 +114,23 @@ describe('helper', () => {
     });
   });
 
-  describe('getCost', () => {
+  describe('getDelta', () => {
     const charges = {supply: 0, usage: 0, usage2: 0};
     const prices = {supply: 0, usage: 0, usage2: 0};
 
     it('returns cost on supply', () => {
-      expect(getCost('residential', {...charges, supply: 1}, prices)).toEqual(365);
+      expect(getDelta('residential', {...charges, supply: 1}, prices)).toEqual(365);
     });
 
     describe('residential', () => {
       it('returns cost on usage', () => {
-        expect(getCost('residential', {...charges, usage: 1}, prices)).toEqual(4000);
+        expect(getDelta('residential', {...charges, usage: 1}, prices)).toEqual(4000);
       });
 
       describe('ausnet', () => {
         it('returns cost on usage', () => {
           expect(
-            getCost('residential', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
+            getDelta('residential', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
           ).toEqual(4000);
         });
       });
@@ -138,13 +138,13 @@ describe('helper', () => {
 
     describe('business', () => {
       it('returns cost on usage', () => {
-        expect(getCost('business', {...charges, usage: 1}, prices)).toEqual(20000);
+        expect(getDelta('business', {...charges, usage: 1}, prices)).toEqual(20000);
       });
 
       describe('ausnet', () => {
         it('returns cost on usage', () => {
           expect(
-            getCost('business', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
+            getDelta('business', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
           ).toEqual(35920);
         });
       });

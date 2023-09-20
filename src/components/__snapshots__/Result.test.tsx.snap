@@ -63,6 +63,7 @@ exports[`Result ausnet renders correctly 1`] = `
     >
       Your rates seem to be acceptable.
        
+      You’re saving around $360 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
@@ -130,7 +131,7 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          1.07530
+          1.08140
         </td>
         <td>
           $
@@ -156,7 +157,7 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.23270
+          0.31740
         </td>
         <td>
           $
@@ -181,7 +182,7 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.30700
+          0.39550
         </td>
         <td>
           $
@@ -323,7 +324,7 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          1.07530
+          1.08140
         </td>
         <td>
           $
@@ -348,7 +349,7 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          0.23270
+          0.31740
         </td>
         <td>
           $
@@ -421,9 +422,9 @@ exports[`Result gst exclusive renders correctly 1`] = `
         }
       }
     >
-      You may be getting overcharged on supply.
+      You may be getting overcharged on both supply and usage.
        
-      This could be costing you around $37 a year.
+      This could be costing you around $166 a year.
     </p>
   </div>
   <table
@@ -491,7 +492,175 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          1.18283
+          1.18954
+        </td>
+        <td>
+          $
+          1.08140
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.34914
+        </td>
+        <td>
+          $
+          0.31740
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result rorted on supply but saving more on usage renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "1109p9j",
+        "next": undefined,
+        "styles": "
+          color: #3cb371;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😸
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      You may be getting overcharged on supply, but your usage charge looks good.
+       
+      You’re saving around $1248 per year compared to the Victorian Default Offer.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          1.14095
         </td>
         <td>
           $
@@ -516,7 +685,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          0.25597
+          0.00000
         </td>
         <td>
           $
@@ -591,7 +760,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
     >
       You may be getting overcharged on supply.
        
-      This could be costing you around $20 a year.
+      This could be costing you around $22 a year.
     </p>
   </div>
   <table
@@ -659,7 +828,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          1.13485
+          1.14095
         </td>
         <td>
           $
@@ -684,7 +853,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          0.23270
+          0.31740
         </td>
         <td>
           $
@@ -696,7 +865,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
 </section>
 `;
 
-exports[`Result rorted on usage renders correctly 1`] = `
+exports[`Result rorted on usage but saving more on supply renders correctly 1`] = `
 <section
   css={
     Object {
@@ -757,8 +926,9 @@ exports[`Result rorted on usage renders correctly 1`] = `
         }
       }
     >
-      Your rates seem to be acceptable.
+      You may be getting overcharged on usage, but your supply charge looks good.
        
+      You’re saving around $291 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
@@ -826,7 +996,7 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          1.07530
+          0.00000
         </td>
         <td>
           $
@@ -836,6 +1006,149 @@ exports[`Result rorted on usage renders correctly 1`] = `
       <tr>
         <td>
           Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.34323
+        </td>
+        <td>
+          $
+          0.31740
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+`;
+
+exports[`Result rorted on usage renders correctly 1`] = `
+<section
+  css={
+    Object {
+      "map": undefined,
+      "name": "dift5x",
+      "next": undefined,
+      "styles": "
+    margin-top: 6rem;
+    text-align: center;
+  ",
+      "toString": [Function],
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "map": undefined,
+        "name": "h7vb22",
+        "next": undefined,
+        "styles": "
+          color: #ff4500;
+        ",
+        "toString": [Function],
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      css={
+        Object {
+          "map": undefined,
+          "name": "1d2w5zj",
+          "next": undefined,
+          "styles": "
+    display: block;
+    font-size: 8rem;
+  ",
+          "toString": [Function],
+        }
+      }
+      role="img"
+    >
+      😿
+    </span>
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "1l9jf5t",
+          "next": undefined,
+          "styles": "
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 1em 0;
+      ",
+          "toString": [Function],
+        }
+      }
+    >
+      You may be getting overcharged on usage.
+       
+      This could be costing you around $103 a year.
+    </p>
+  </div>
+  <table
+    css={
+      Object {
+        "map": undefined,
+        "name": "li4c38",
+        "next": undefined,
+        "styles": "
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 4rem;
+    text-align: left;
+    width: 100%;
+
+    th,
+    td:first-of-type {
+      font-weight: bold;
+    }
+
+    td:first-of-type {
+      width: 40%;
+    }
+
+    th,
+    td {
+      background: #f9f9f9;
+      border: 0.1rem solid white;
+      padding: 1em;
+    }
+  ",
+        "toString": [Function],
+      }
+    }
+  >
+    <thead>
+      <tr>
+        <th
+          aria-label="Charge"
+        />
+        <th>
+          Your charge (inc gst)
+        </th>
+        <th>
+          Maximum charge (inc gst)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Supply / day
         </td>
         <td
           css={
@@ -851,7 +1164,32 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          0.25853
+          1.08140
+        </td>
+        <td>
+          $
+          1.08140
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage / kWh 
+        </td>
+        <td
+          css={
+            Object {
+              "map": undefined,
+              "name": "1xs99n",
+              "next": undefined,
+              "styles": "
+    color: #ff4500;
+  ",
+              "toString": [Function],
+            }
+          }
+        >
+          $
+          0.34323
         </td>
         <td>
           $
@@ -926,6 +1264,7 @@ exports[`Result without charges renders correctly 1`] = `
     >
       Your rates seem to be acceptable.
        
+      You’re saving around $1664 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
