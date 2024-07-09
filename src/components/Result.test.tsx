@@ -1,14 +1,15 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import {PRICING_DATA} from '../constants/data';
 import Result from './Result';
 
 describe('Result', () => {
   const props = {
     customerType: 'residential',
     distributor: 'united',
-    supply: '1.0814',
-    usage: '0.3174',
-    usage2: '0.3955',
+    supply: String(PRICING_DATA.united.residential.supply),
+    usage: String(PRICING_DATA.united.residential.usage),
+    usage2: '',
     gst: 'inclusive',
   } as const;
 
@@ -20,7 +21,7 @@ describe('Result', () => {
 
   describe('without charges', () => {
     it('renders correctly', () => {
-      expect(renderer.create(<Result {...props} supply="" usage="" />).toJSON()).toMatchSnapshot();
+      expect(renderer.create(<Result {...props} supply="" usage="" usage2="" />).toJSON()).toMatchSnapshot();
     });
   });
 
@@ -66,7 +67,21 @@ describe('Result', () => {
 
   describe('ausnet', () => {
     it('renders correctly', () => {
-      expect(renderer.create(<Result {...props} distributor="ausnet" />).toJSON()).toMatchSnapshot();
+      const {supply, usage, usage2} = PRICING_DATA.ausnet.residential;
+
+      expect(
+        renderer
+          .create(
+            <Result
+              {...props}
+              distributor="ausnet"
+              supply={String(supply)}
+              usage={String(usage)}
+              usage2={String(usage2)}
+            />
+          )
+          .toJSON()
+      ).toMatchSnapshot();
     });
   });
 });

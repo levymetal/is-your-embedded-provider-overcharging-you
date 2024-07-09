@@ -63,7 +63,6 @@ exports[`Result ausnet renders correctly 1`] = `
     >
       Your rates seem to be acceptable.
        
-      You’re saving around $360 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
@@ -131,11 +130,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          1.08140
+          1.33540
         </td>
         <td>
           $
-          1.32510
+          1.33540
         </td>
       </tr>
       <tr>
@@ -157,11 +156,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.31740
+          0.35360
         </td>
         <td>
           $
-          0.38510
+          0.35360
         </td>
       </tr>
       <tr>
@@ -182,11 +181,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.39550
+          0.36170
         </td>
         <td>
           $
-          0.39550
+          0.36170
         </td>
       </tr>
     </tbody>
@@ -324,11 +323,11 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          1.08140
+          1.09550
         </td>
         <td>
           $
-          1.08140
+          1.09550
         </td>
       </tr>
       <tr>
@@ -349,11 +348,11 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          0.31740
+          0.28840
         </td>
         <td>
           $
-          0.31740
+          0.28840
         </td>
       </tr>
     </tbody>
@@ -424,7 +423,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
     >
       You may be getting overcharged on both supply and usage.
        
-      This could be costing you around $166 a year.
+      This could be costing you around $155 a year.
     </p>
   </div>
   <table
@@ -492,11 +491,11 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          1.18954
+          1.20505
         </td>
         <td>
           $
-          1.08140
+          1.09550
         </td>
       </tr>
       <tr>
@@ -517,11 +516,11 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          0.34914
+          0.31724
         </td>
         <td>
           $
-          0.31740
+          0.28840
         </td>
       </tr>
     </tbody>
@@ -592,7 +591,7 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
     >
       You may be getting overcharged on supply, but your usage charge looks good.
        
-      You’re saving around $1248 per year compared to the Victorian Default Offer.
+      You’re saving around $1132 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
@@ -660,11 +659,11 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
           }
         >
           $
-          1.14095
+          1.15505
         </td>
         <td>
           $
-          1.08140
+          1.09550
         </td>
       </tr>
       <tr>
@@ -689,7 +688,7 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
         </td>
         <td>
           $
-          0.31740
+          0.28840
         </td>
       </tr>
     </tbody>
@@ -828,11 +827,11 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          1.14095
+          1.15505
         </td>
         <td>
           $
-          1.08140
+          1.09550
         </td>
       </tr>
       <tr>
@@ -853,11 +852,11 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          0.31740
+          0.28840
         </td>
         <td>
           $
-          0.31740
+          0.28840
         </td>
       </tr>
     </tbody>
@@ -928,7 +927,7 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
     >
       You may be getting overcharged on usage, but your supply charge looks good.
        
-      You’re saving around $291 per year compared to the Victorian Default Offer.
+      You’re saving around $297 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
@@ -1000,7 +999,7 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
         </td>
         <td>
           $
-          1.08140
+          1.09550
         </td>
       </tr>
       <tr>
@@ -1021,11 +1020,11 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
           }
         >
           $
-          0.34323
+          0.31423
         </td>
         <td>
           $
-          0.31740
+          0.28840
         </td>
       </tr>
     </tbody>
@@ -1164,11 +1163,11 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          1.08140
+          1.09550
         </td>
         <td>
           $
-          1.08140
+          1.09550
         </td>
       </tr>
       <tr>
@@ -1189,11 +1188,11 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          0.34323
+          0.31423
         </td>
         <td>
           $
-          0.31740
+          0.28840
         </td>
       </tr>
     </tbody>
@@ -1216,156 +1215,24 @@ exports[`Result without charges renders correctly 1`] = `
     }
   }
 >
-  <div
+  <span
+    aria-hidden={true}
     css={
       Object {
         "map": undefined,
-        "name": "1109p9j",
+        "name": "1d2w5zj",
         "next": undefined,
         "styles": "
-          color: #3cb371;
-        ",
-        "toString": [Function],
-      }
-    }
-  >
-    <span
-      aria-hidden={true}
-      css={
-        Object {
-          "map": undefined,
-          "name": "1d2w5zj",
-          "next": undefined,
-          "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
-        }
-      }
-      role="img"
-    >
-      😸
-    </span>
-    <p
-      css={
-        Object {
-          "map": undefined,
-          "name": "1l9jf5t",
-          "next": undefined,
-          "styles": "
-        font-size: 1.8rem;
-        line-height: 1.2;
-        margin: 1em 0;
-      ",
-          "toString": [Function],
-        }
-      }
-    >
-      Your rates seem to be acceptable.
-       
-      You’re saving around $1664 per year compared to the Victorian Default Offer.
-    </p>
-  </div>
-  <table
-    css={
-      Object {
-        "map": undefined,
-        "name": "li4c38",
-        "next": undefined,
-        "styles": "
-    font-size: 1.6rem;
-    font-variant-numeric: tabular-nums;
-    margin-top: 4rem;
-    text-align: left;
-    width: 100%;
-
-    th,
-    td:first-of-type {
-      font-weight: bold;
-    }
-
-    td:first-of-type {
-      width: 40%;
-    }
-
-    th,
-    td {
-      background: #f9f9f9;
-      border: 0.1rem solid white;
-      padding: 1em;
-    }
-  ",
         "toString": [Function],
       }
     }
+    role="img"
   >
-    <thead>
-      <tr>
-        <th
-          aria-label="Charge"
-        />
-        <th>
-          Your charge (inc gst)
-        </th>
-        <th>
-          Maximum charge (inc gst)
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          Supply / day
-        </td>
-        <td
-          css={
-            Object {
-              "map": undefined,
-              "name": "xf633i",
-              "next": undefined,
-              "styles": "
-    color: #3cb371;
-  ",
-              "toString": [Function],
-            }
-          }
-        >
-          $
-          0.00000
-        </td>
-        <td>
-          $
-          1.08140
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Usage / kWh 
-        </td>
-        <td
-          css={
-            Object {
-              "map": undefined,
-              "name": "xf633i",
-              "next": undefined,
-              "styles": "
-    color: #3cb371;
-  ",
-              "toString": [Function],
-            }
-          }
-        >
-          $
-          0.00000
-        </td>
-        <td>
-          $
-          0.31740
-        </td>
-      </tr>
-    </tbody>
-  </table>
+    🤷‍♀️
+  </span>
 </section>
 `;
 
