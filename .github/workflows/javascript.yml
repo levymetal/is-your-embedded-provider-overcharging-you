@@ -20,7 +20,7 @@ jobs:
           node-version: 22.x
 
       - name: install packages
-        run: yarn install --frozen-lockfile --silent --no-optional
+        run: yarn install --immutable --silent
 
       - name: Test with jest
         run: yarn test
