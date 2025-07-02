@@ -19,7 +19,8 @@ jobs:
         with:
           node-version: 22.x
 
+      - name: install packages
+        run: yarn install --frozen-lockfile --silent --no-optional
+
       - name: Test with jest
-        run: |
-          npm install
-          npm test
+        run: yarn test
