@@ -25,21 +25,21 @@ export default function Result({customerType, distributor, supply, usage, usage2
     rorts.supply && rorts.anyUsage
       ? 'You may be getting overcharged on both supply and usage.'
       : rorts.supply && delta < 0
-      ? 'You may be getting overcharged on supply, but your usage charge looks good.'
-      : rorts.anyUsage && delta < 0
-      ? 'You may be getting overcharged on usage, but your supply charge looks good.'
-      : rorts.supply
-      ? 'You may be getting overcharged on supply.'
-      : rorts.anyUsage
-      ? 'You may be getting overcharged on usage.'
-      : 'Your rates seem to be acceptable.';
+        ? 'You may be getting overcharged on supply, but your usage charge looks good.'
+        : rorts.anyUsage && delta < 0
+          ? 'You may be getting overcharged on usage, but your supply charge looks good.'
+          : rorts.supply
+            ? 'You may be getting overcharged on supply.'
+            : rorts.anyUsage
+              ? 'You may be getting overcharged on usage.'
+              : 'Your rates seem to be acceptable.';
 
   const deltaMessage =
     delta > 0
       ? `This could be costing you around $${format(delta, 0)} a year.`
       : delta < 0
-      ? `You’re saving around $${format(Math.abs(delta), 0)} per year compared to the Victorian Default Offer.`
-      : null;
+        ? `You’re saving around $${format(Math.abs(delta), 0)} per year compared to the Victorian Default Offer.`
+        : null;
 
   return gst && (charges.supply || charges.usage || charges.usage2) ? (
     <section css={styles.root}>

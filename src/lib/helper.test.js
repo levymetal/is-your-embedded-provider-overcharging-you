@@ -130,7 +130,7 @@ describe('helper', () => {
       describe('ausnet', () => {
         it('returns cost on usage', () => {
           expect(
-            getDelta('residential', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
+            getDelta('residential', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4}),
           ).toEqual(4000);
         });
       });
@@ -144,7 +144,7 @@ describe('helper', () => {
       describe('ausnet', () => {
         it('returns cost on usage', () => {
           expect(
-            getDelta('business', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4})
+            getDelta('business', {...charges, usage: 1, usage2: 2}, {...prices, block1AnnualKWh: 1020 * 4}),
           ).toEqual(35920);
         });
       });

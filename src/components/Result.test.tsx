@@ -78,9 +78,9 @@ describe('Result', () => {
               supply={String(supply)}
               usage={String(usage)}
               usage2={String(usage2)}
-            />
+            />,
           )
-          .toJSON()
+          .toJSON(),
       ).toMatchSnapshot();
     });
   });
