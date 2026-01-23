@@ -1,45 +1,39 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Result ausnet renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "1109p9j",
         "next": undefined,
         "styles": "
           color: #3cb371;
         ",
-        "toString": [Function],
       }
     }
   >
     <span
       aria-hidden={true}
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1d2w5zj",
           "next": undefined,
           "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
         }
       }
       role="img"
@@ -48,8 +42,7 @@ exports[`Result ausnet renders correctly 1`] = `
     </span>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -57,7 +50,6 @@ exports[`Result ausnet renders correctly 1`] = `
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -67,8 +59,7 @@ exports[`Result ausnet renders correctly 1`] = `
   </div>
   <table
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "li4c38",
         "next": undefined,
         "styles": "
@@ -94,7 +85,6 @@ exports[`Result ausnet renders correctly 1`] = `
       padding: 1em;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -118,14 +108,12 @@ exports[`Result ausnet renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -144,14 +132,12 @@ exports[`Result ausnet renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -169,14 +155,12 @@ exports[`Result ausnet renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -196,43 +180,37 @@ exports[`Result ausnet renders correctly 1`] = `
 exports[`Result default renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "1109p9j",
         "next": undefined,
         "styles": "
           color: #3cb371;
         ",
-        "toString": [Function],
       }
     }
   >
     <span
       aria-hidden={true}
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1d2w5zj",
           "next": undefined,
           "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
         }
       }
       role="img"
@@ -241,8 +219,7 @@ exports[`Result default renders correctly 1`] = `
     </span>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -250,7 +227,6 @@ exports[`Result default renders correctly 1`] = `
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -260,8 +236,7 @@ exports[`Result default renders correctly 1`] = `
   </div>
   <table
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "li4c38",
         "next": undefined,
         "styles": "
@@ -287,7 +262,6 @@ exports[`Result default renders correctly 1`] = `
       padding: 1em;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -311,14 +285,12 @@ exports[`Result default renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -336,14 +308,12 @@ exports[`Result default renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -363,43 +333,37 @@ exports[`Result default renders correctly 1`] = `
 exports[`Result gst exclusive renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "h7vb22",
         "next": undefined,
         "styles": "
           color: #ff4500;
         ",
-        "toString": [Function],
       }
     }
   >
     <span
       aria-hidden={true}
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1d2w5zj",
           "next": undefined,
           "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
         }
       }
       role="img"
@@ -408,8 +372,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
     </span>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -417,7 +380,6 @@ exports[`Result gst exclusive renders correctly 1`] = `
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -428,8 +390,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
   </div>
   <table
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "li4c38",
         "next": undefined,
         "styles": "
@@ -455,7 +416,6 @@ exports[`Result gst exclusive renders correctly 1`] = `
       padding: 1em;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -479,14 +439,12 @@ exports[`Result gst exclusive renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1xs99n",
               "next": undefined,
               "styles": "
     color: #ff4500;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -504,14 +462,12 @@ exports[`Result gst exclusive renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1xs99n",
               "next": undefined,
               "styles": "
     color: #ff4500;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -531,43 +487,37 @@ exports[`Result gst exclusive renders correctly 1`] = `
 exports[`Result rorted on supply but saving more on usage renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "1109p9j",
         "next": undefined,
         "styles": "
           color: #3cb371;
         ",
-        "toString": [Function],
       }
     }
   >
     <span
       aria-hidden={true}
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1d2w5zj",
           "next": undefined,
           "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
         }
       }
       role="img"
@@ -576,8 +526,7 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
     </span>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -585,7 +534,6 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -596,8 +544,7 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
   </div>
   <table
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "li4c38",
         "next": undefined,
         "styles": "
@@ -623,7 +570,6 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
       padding: 1em;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -647,14 +593,12 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1xs99n",
               "next": undefined,
               "styles": "
     color: #ff4500;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -672,14 +616,12 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -699,43 +641,37 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
 exports[`Result rorted on supply renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "h7vb22",
         "next": undefined,
         "styles": "
           color: #ff4500;
         ",
-        "toString": [Function],
       }
     }
   >
     <span
       aria-hidden={true}
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1d2w5zj",
           "next": undefined,
           "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
         }
       }
       role="img"
@@ -744,8 +680,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
     </span>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -753,7 +688,6 @@ exports[`Result rorted on supply renders correctly 1`] = `
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -764,8 +698,7 @@ exports[`Result rorted on supply renders correctly 1`] = `
   </div>
   <table
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "li4c38",
         "next": undefined,
         "styles": "
@@ -791,7 +724,6 @@ exports[`Result rorted on supply renders correctly 1`] = `
       padding: 1em;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -815,14 +747,12 @@ exports[`Result rorted on supply renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1xs99n",
               "next": undefined,
               "styles": "
     color: #ff4500;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -840,14 +770,12 @@ exports[`Result rorted on supply renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -867,43 +795,37 @@ exports[`Result rorted on supply renders correctly 1`] = `
 exports[`Result rorted on usage but saving more on supply renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "1109p9j",
         "next": undefined,
         "styles": "
           color: #3cb371;
         ",
-        "toString": [Function],
       }
     }
   >
     <span
       aria-hidden={true}
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1d2w5zj",
           "next": undefined,
           "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
         }
       }
       role="img"
@@ -912,8 +834,7 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
     </span>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -921,7 +842,6 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -932,8 +852,7 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
   </div>
   <table
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "li4c38",
         "next": undefined,
         "styles": "
@@ -959,7 +878,6 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
       padding: 1em;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -983,14 +901,12 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -1008,14 +924,12 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1xs99n",
               "next": undefined,
               "styles": "
     color: #ff4500;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -1035,43 +949,37 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
 exports[`Result rorted on usage renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "h7vb22",
         "next": undefined,
         "styles": "
           color: #ff4500;
         ",
-        "toString": [Function],
       }
     }
   >
     <span
       aria-hidden={true}
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1d2w5zj",
           "next": undefined,
           "styles": "
     display: block;
     font-size: 8rem;
   ",
-          "toString": [Function],
         }
       }
       role="img"
@@ -1080,8 +988,7 @@ exports[`Result rorted on usage renders correctly 1`] = `
     </span>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -1089,7 +996,6 @@ exports[`Result rorted on usage renders correctly 1`] = `
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -1100,8 +1006,7 @@ exports[`Result rorted on usage renders correctly 1`] = `
   </div>
   <table
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "li4c38",
         "next": undefined,
         "styles": "
@@ -1127,7 +1032,6 @@ exports[`Result rorted on usage renders correctly 1`] = `
       padding: 1em;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -1151,14 +1055,12 @@ exports[`Result rorted on usage renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "xf633i",
               "next": undefined,
               "styles": "
     color: #3cb371;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -1176,14 +1078,12 @@ exports[`Result rorted on usage renders correctly 1`] = `
         </td>
         <td
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1xs99n",
               "next": undefined,
               "styles": "
     color: #ff4500;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -1203,30 +1103,26 @@ exports[`Result rorted on usage renders correctly 1`] = `
 exports[`Result without charges renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <span
     aria-hidden={true}
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "1d2w5zj",
         "next": undefined,
         "styles": "
     display: block;
     font-size: 8rem;
   ",
-        "toString": [Function],
       }
     }
     role="img"
@@ -1239,30 +1135,26 @@ exports[`Result without charges renders correctly 1`] = `
 exports[`Result without gst renders correctly 1`] = `
 <section
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "dift5x",
       "next": undefined,
       "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-      "toString": [Function],
     }
   }
 >
   <span
     aria-hidden={true}
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "1d2w5zj",
         "next": undefined,
         "styles": "
     display: block;
     font-size: 8rem;
   ",
-        "toString": [Function],
       }
     }
     role="img"

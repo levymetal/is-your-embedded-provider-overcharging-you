@@ -1,10 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Home renders correctly 1`] = `
 <div
   css={
-    Object {
-      "map": undefined,
+    {
       "name": "1krtjz0",
       "next": undefined,
       "styles": "
@@ -12,27 +11,31 @@ exports[`Home renders correctly 1`] = `
   max-width: 61rem;
   padding: 3rem 2rem;
 ",
-      "toString": [Function],
     }
   }
 >
+  <style
+    dangerouslySetInnerHTML={
+      {
+        "__html": "html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}*,*::before,*::after{box-sizing:border-box;}html{font-size:10px;}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';}body,a{color:#333333;}",
+      }
+    }
+    data-emotion="css-global 144wfh8"
+  />
   <header
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "1q0vk5q",
         "next": undefined,
         "styles": "
     text-align: center;
   ",
-        "toString": [Function],
       }
     }
   >
     <h1
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "19bva1d",
           "next": undefined,
           "styles": "
@@ -40,7 +43,6 @@ exports[`Home renders correctly 1`] = `
         font-weight: bold;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -48,8 +50,7 @@ exports[`Home renders correctly 1`] = `
     </h1>
     <p
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "1l9jf5t",
           "next": undefined,
           "styles": "
@@ -57,7 +58,6 @@ exports[`Home renders correctly 1`] = `
         line-height: 1.2;
         margin: 1em 0;
       ",
-          "toString": [Function],
         }
       }
     >
@@ -65,15 +65,13 @@ exports[`Home renders correctly 1`] = `
        
       <a
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "15892p7",
             "next": undefined,
             "styles": "
         color: #ff69b4;
         text-decoration: underline;
       ",
-            "toString": [Function],
           }
         }
         href="https://www.esc.vic.gov.au/"
@@ -85,15 +83,13 @@ exports[`Home renders correctly 1`] = `
        
       <a
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "15892p7",
             "next": undefined,
             "styles": "
         color: #ff69b4;
         text-decoration: underline;
       ",
-            "toString": [Function],
           }
         }
         href="https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/embedded-network-tariffs-including-caravan-parks/maximum-electricity-prices-embedded-networks-and-other-exempt-sellers-review-2020"
@@ -108,34 +104,29 @@ exports[`Home renders correctly 1`] = `
   </header>
   <div
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "jpbnhn",
         "next": undefined,
         "styles": "
     margin: 6rem 0;
   ",
-        "toString": [Function],
       }
     }
   >
     <div
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "jo4v37",
           "next": undefined,
           "styles": "
         margin: 2rem 0;
       ",
-          "toString": [Function],
         }
       }
     >
       <label
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "w5m5m2",
             "next": undefined,
             "styles": "
@@ -143,7 +134,6 @@ exports[`Home renders correctly 1`] = `
         font-size: 1.8rem;
         font-weight: bold;
       ",
-            "toString": [Function],
           }
         }
         htmlFor="customer-type"
@@ -152,9 +142,8 @@ exports[`Home renders correctly 1`] = `
       </label>
       <select
         css={
-          Array [
-            Object {
-              "map": undefined,
+          [
+            {
               "name": "l9u2lu",
               "next": undefined,
               "styles": "
@@ -167,17 +156,14 @@ exports[`Home renders correctly 1`] = `
   padding: 0.5em;
   width: 100%;
 ",
-              "toString": [Function],
             },
-            Object {
-              "map": undefined,
+            {
               "name": "1yh9b6y",
               "next": undefined,
               "styles": "
       background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB0ElEQVR4Xu3aMVLDMBBA0Z+GO3AOKjo4DHAmchoqqDhH7kDFbIZ4nOA4trSrlaV1AxkCtr5XL8wkOzo/dp2vnwgQE9B5gdgCnQ9AIBhbILZA5wViCwB74KXTQdjLBNwBH8BjZxE+gefTFrgHvgH52sNxAB6Aw9gAmQCZBJmIlo8f4An4kkVeIvgKvLe8euDtz73jMqdeBVpGUdYmAYZjKkCrKB7RA2QLzAaQH7aG4oDe5fae+0eoFRTP0FsTQJ7bAopn6K0NIM/fMor/0EsJsFUUJ9FLCbBFFK+ilxpAfm8rKM6ilxNgKyjOopcboHYUb6KnEaBWFBehpxGgRhQXo6cVoCYUV6GnGaAWFFehpx3AG8XV6FkE8EIxCT2LAB4oJqNnFaAkilnoWQYohWIWetYBrFHMRq9EACsUVdArEcACRTX0SgXQRFEVvZIBtFBURa90gFwU1dHzCJCKogl6HgFSUDRDzyvAGhRN0fMMsBRFU/S8A9xC0Ry9GgJcQ7EIejUEmEKxGHq1BBijKN8PH1m5vEDrx96fE5R3n08uWK918u97B3BZ9PikEcD9FjhfQEyA8w1wP31MgPstcL6AmADnG+B++pgA91vgfAHdT8Av+Vxk4C70OXQAAAAASUVORK5CYII=)
         no-repeat calc(100% - 1.5rem) center/1rem;
     ",
-              "toString": [Function],
             },
           ]
         }
@@ -201,21 +187,18 @@ exports[`Home renders correctly 1`] = `
     </div>
     <div
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "jo4v37",
           "next": undefined,
           "styles": "
         margin: 2rem 0;
       ",
-          "toString": [Function],
         }
       }
     >
       <label
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "w5m5m2",
             "next": undefined,
             "styles": "
@@ -223,7 +206,6 @@ exports[`Home renders correctly 1`] = `
         font-size: 1.8rem;
         font-weight: bold;
       ",
-            "toString": [Function],
           }
         }
         htmlFor="distributor"
@@ -232,8 +214,7 @@ exports[`Home renders correctly 1`] = `
       </label>
       <p
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "e1vszu",
             "next": undefined,
             "styles": "
@@ -244,7 +225,6 @@ exports[`Home renders correctly 1`] = `
       font-weight: bold;
     }
   ",
-            "toString": [Function],
           }
         }
       >
@@ -256,15 +236,13 @@ exports[`Home renders correctly 1`] = `
          
         <a
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "15892p7",
               "next": undefined,
               "styles": "
         color: #ff69b4;
         text-decoration: underline;
       ",
-              "toString": [Function],
             }
           }
           href="https://www.energy.vic.gov.au/electricity/electricity-distributors"
@@ -278,9 +256,8 @@ exports[`Home renders correctly 1`] = `
       </p>
       <select
         css={
-          Array [
-            Object {
-              "map": undefined,
+          [
+            {
               "name": "l9u2lu",
               "next": undefined,
               "styles": "
@@ -293,17 +270,14 @@ exports[`Home renders correctly 1`] = `
   padding: 0.5em;
   width: 100%;
 ",
-              "toString": [Function],
             },
-            Object {
-              "map": undefined,
+            {
               "name": "1yh9b6y",
               "next": undefined,
               "styles": "
       background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB0ElEQVR4Xu3aMVLDMBBA0Z+GO3AOKjo4DHAmchoqqDhH7kDFbIZ4nOA4trSrlaV1AxkCtr5XL8wkOzo/dp2vnwgQE9B5gdgCnQ9AIBhbILZA5wViCwB74KXTQdjLBNwBH8BjZxE+gefTFrgHvgH52sNxAB6Aw9gAmQCZBJmIlo8f4An4kkVeIvgKvLe8euDtz73jMqdeBVpGUdYmAYZjKkCrKB7RA2QLzAaQH7aG4oDe5fae+0eoFRTP0FsTQJ7bAopn6K0NIM/fMor/0EsJsFUUJ9FLCbBFFK+ilxpAfm8rKM6ilxNgKyjOopcboHYUb6KnEaBWFBehpxGgRhQXo6cVoCYUV6GnGaAWFFehpx3AG8XV6FkE8EIxCT2LAB4oJqNnFaAkilnoWQYohWIWetYBrFHMRq9EACsUVdArEcACRTX0SgXQRFEVvZIBtFBURa90gFwU1dHzCJCKogl6HgFSUDRDzyvAGhRN0fMMsBRFU/S8A9xC0Ry9GgJcQ7EIejUEmEKxGHq1BBijKN8PH1m5vEDrx96fE5R3n08uWK918u97B3BZ9PikEcD9FjhfQEyA8w1wP31MgPstcL6AmADnG+B++pgA91vgfAHdT8Av+Vxk4C70OXQAAAAASUVORK5CYII=)
         no-repeat calc(100% - 1.5rem) center/1rem;
     ",
-              "toString": [Function],
             },
           ]
         }
@@ -342,21 +316,18 @@ exports[`Home renders correctly 1`] = `
     </div>
     <div
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "jo4v37",
           "next": undefined,
           "styles": "
         margin: 2rem 0;
       ",
-          "toString": [Function],
         }
       }
     >
       <label
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "w5m5m2",
             "next": undefined,
             "styles": "
@@ -364,7 +335,6 @@ exports[`Home renders correctly 1`] = `
         font-size: 1.8rem;
         font-weight: bold;
       ",
-            "toString": [Function],
           }
         }
         htmlFor="supply"
@@ -373,9 +343,8 @@ exports[`Home renders correctly 1`] = `
       </label>
       <input
         css={
-          Array [
-            Object {
-              "map": undefined,
+          [
+            {
               "name": "l9u2lu",
               "next": undefined,
               "styles": "
@@ -388,7 +357,6 @@ exports[`Home renders correctly 1`] = `
   padding: 0.5em;
   width: 100%;
 ",
-              "toString": [Function],
             },
             false,
           ]
@@ -405,21 +373,18 @@ exports[`Home renders correctly 1`] = `
     </div>
     <div
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "jo4v37",
           "next": undefined,
           "styles": "
         margin: 2rem 0;
       ",
-          "toString": [Function],
         }
       }
     >
       <label
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "w5m5m2",
             "next": undefined,
             "styles": "
@@ -427,7 +392,6 @@ exports[`Home renders correctly 1`] = `
         font-size: 1.8rem;
         font-weight: bold;
       ",
-            "toString": [Function],
           }
         }
         htmlFor="usage"
@@ -437,9 +401,8 @@ exports[`Home renders correctly 1`] = `
       </label>
       <input
         css={
-          Array [
-            Object {
-              "map": undefined,
+          [
+            {
               "name": "l9u2lu",
               "next": undefined,
               "styles": "
@@ -452,7 +415,6 @@ exports[`Home renders correctly 1`] = `
   padding: 0.5em;
   width: 100%;
 ",
-              "toString": [Function],
             },
             false,
           ]
@@ -469,21 +431,18 @@ exports[`Home renders correctly 1`] = `
     </div>
     <div
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "jo4v37",
           "next": undefined,
           "styles": "
         margin: 2rem 0;
       ",
-          "toString": [Function],
         }
       }
     >
       <label
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "w5m5m2",
             "next": undefined,
             "styles": "
@@ -491,7 +450,6 @@ exports[`Home renders correctly 1`] = `
         font-size: 1.8rem;
         font-weight: bold;
       ",
-            "toString": [Function],
           }
         }
         htmlFor="gst"
@@ -500,23 +458,20 @@ exports[`Home renders correctly 1`] = `
       </label>
       <label
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "is77hg",
             "next": undefined,
             "styles": "
     display: inline-flex;
     margin: 1.5rem 0;
   ",
-            "toString": [Function],
           }
         }
       >
         <input
           checked={false}
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1lnkwq",
               "next": undefined,
               "styles": "
@@ -524,7 +479,6 @@ exports[`Home renders correctly 1`] = `
     margin: 0;
     width: 1.8rem;
   ",
-              "toString": [Function],
             }
           }
           name="gst"
@@ -534,8 +488,7 @@ exports[`Home renders correctly 1`] = `
         />
         <span
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1kw0dgk",
               "next": undefined,
               "styles": "
@@ -543,7 +496,6 @@ exports[`Home renders correctly 1`] = `
     font-size: 1.8rem;
     margin: 0 2em 0 0.5em;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -552,23 +504,20 @@ exports[`Home renders correctly 1`] = `
       </label>
       <label
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "is77hg",
             "next": undefined,
             "styles": "
     display: inline-flex;
     margin: 1.5rem 0;
   ",
-            "toString": [Function],
           }
         }
       >
         <input
           checked={false}
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1lnkwq",
               "next": undefined,
               "styles": "
@@ -576,7 +525,6 @@ exports[`Home renders correctly 1`] = `
     margin: 0;
     width: 1.8rem;
   ",
-              "toString": [Function],
             }
           }
           name="gst"
@@ -586,8 +534,7 @@ exports[`Home renders correctly 1`] = `
         />
         <span
           css={
-            Object {
-              "map": undefined,
+            {
               "name": "1kw0dgk",
               "next": undefined,
               "styles": "
@@ -595,7 +542,6 @@ exports[`Home renders correctly 1`] = `
     font-size: 1.8rem;
     margin: 0 2em 0 0.5em;
   ",
-              "toString": [Function],
             }
           }
         >
@@ -605,30 +551,26 @@ exports[`Home renders correctly 1`] = `
     </div>
     <section
       css={
-        Object {
-          "map": undefined,
+        {
           "name": "dift5x",
           "next": undefined,
           "styles": "
     margin-top: 6rem;
     text-align: center;
   ",
-          "toString": [Function],
         }
       }
     >
       <span
         aria-hidden={true}
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "1d2w5zj",
             "next": undefined,
             "styles": "
     display: block;
     font-size: 8rem;
   ",
-            "toString": [Function],
           }
         }
         role="img"
@@ -639,8 +581,7 @@ exports[`Home renders correctly 1`] = `
   </div>
   <footer
     css={
-      Object {
-        "map": undefined,
+      {
         "name": "ak914f",
         "next": undefined,
         "styles": "
@@ -651,7 +592,6 @@ exports[`Home renders correctly 1`] = `
       margin: 1em 0;
     }
   ",
-        "toString": [Function],
       }
     }
   >
@@ -660,15 +600,13 @@ exports[`Home renders correctly 1`] = `
        
       <a
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "15892p7",
             "next": undefined,
             "styles": "
         color: #ff69b4;
         text-decoration: underline;
       ",
-            "toString": [Function],
           }
         }
         href="https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/victorian-default-offer"
@@ -681,15 +619,13 @@ exports[`Home renders correctly 1`] = `
        
       <a
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "15892p7",
             "next": undefined,
             "styles": "
         color: #ff69b4;
         text-decoration: underline;
       ",
-            "toString": [Function],
           }
         }
         href="https://www.esc.vic.gov.au"
@@ -706,15 +642,13 @@ exports[`Home renders correctly 1`] = `
        
       <a
         css={
-          Object {
-            "map": undefined,
+          {
             "name": "15892p7",
             "next": undefined,
             "styles": "
         color: #ff69b4;
         text-decoration: underline;
       ",
-            "toString": [Function],
           }
         }
         href="https://christianvarga.com"
