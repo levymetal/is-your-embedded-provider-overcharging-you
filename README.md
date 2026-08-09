@@ -1,4 +1,4 @@
-![javascript](https://github.com/levymetal/is-your-embedded-provider-overcharging-you/workflows/javascript/badge.svg?branch=master)
+![javascript](https://github.com/levymetal/is-your-embedded-provider-overcharging-you/actions/workflows/javascript.yml/badge.svg?branch=master)
 
 ### Is your embedded network provider overcharging you?
 
