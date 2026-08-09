@@ -118,11 +118,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          1.41460
+          1.28240
         </td>
         <td>
           $
-          1.41460
+          1.28240
         </td>
       </tr>
       <tr>
@@ -142,11 +142,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.34770
+          0.31980
         </td>
         <td>
           $
-          0.34770
+          0.31980
         </td>
       </tr>
       <tr>
@@ -165,11 +165,11 @@ exports[`Result ausnet renders correctly 1`] = `
           }
         >
           $
-          0.34770
+          0.31980
         </td>
         <td>
           $
-          0.34770
+          0.31980
         </td>
       </tr>
     </tbody>
@@ -295,11 +295,11 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          1.16480
+          1.19120
         </td>
         <td>
           $
-          1.16480
+          1.19120
         </td>
       </tr>
       <tr>
@@ -318,11 +318,11 @@ exports[`Result default renders correctly 1`] = `
           }
         >
           $
-          0.28840
+          0.27350
         </td>
         <td>
           $
-          0.28840
+          0.27350
         </td>
       </tr>
     </tbody>
@@ -385,7 +385,7 @@ exports[`Result gst exclusive renders correctly 1`] = `
     >
       You may be getting overcharged on both supply and usage.
        
-      This could be costing you around $158 a year.
+      This could be costing you around $153 a year.
     </p>
   </div>
   <table
@@ -449,11 +449,11 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          1.28128
+          1.31032
         </td>
         <td>
           $
-          1.16480
+          1.19120
         </td>
       </tr>
       <tr>
@@ -472,11 +472,11 @@ exports[`Result gst exclusive renders correctly 1`] = `
           }
         >
           $
-          0.31724
+          0.30085
         </td>
         <td>
           $
-          0.28840
+          0.27350
         </td>
       </tr>
     </tbody>
@@ -539,7 +539,7 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
     >
       You may be getting overcharged on supply, but your usage charge looks good.
        
-      You’re saving around $1132 per year compared to the Victorian Default Offer.
+      You’re saving around $1072 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
@@ -603,11 +603,11 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
           }
         >
           $
-          1.22435
+          1.25075
         </td>
         <td>
           $
-          1.16480
+          1.19120
         </td>
       </tr>
       <tr>
@@ -630,7 +630,7 @@ exports[`Result rorted on supply but saving more on usage renders correctly 1`] 
         </td>
         <td>
           $
-          0.28840
+          0.27350
         </td>
       </tr>
     </tbody>
@@ -757,11 +757,11 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          1.22435
+          1.25075
         </td>
         <td>
           $
-          1.16480
+          1.19120
         </td>
       </tr>
       <tr>
@@ -780,11 +780,11 @@ exports[`Result rorted on supply renders correctly 1`] = `
           }
         >
           $
-          0.28840
+          0.27350
         </td>
         <td>
           $
-          0.28840
+          0.27350
         </td>
       </tr>
     </tbody>
@@ -847,7 +847,7 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
     >
       You may be getting overcharged on usage, but your supply charge looks good.
        
-      You’re saving around $322 per year compared to the Victorian Default Offer.
+      You’re saving around $331 per year compared to the Victorian Default Offer.
     </p>
   </div>
   <table
@@ -915,7 +915,7 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
         </td>
         <td>
           $
-          1.16480
+          1.19120
         </td>
       </tr>
       <tr>
@@ -934,11 +934,11 @@ exports[`Result rorted on usage but saving more on supply renders correctly 1`] 
           }
         >
           $
-          0.31423
+          0.29933
         </td>
         <td>
           $
-          0.28840
+          0.27350
         </td>
       </tr>
     </tbody>
@@ -1065,11 +1065,11 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          1.16480
+          1.19120
         </td>
         <td>
           $
-          1.16480
+          1.19120
         </td>
       </tr>
       <tr>
@@ -1088,11 +1088,11 @@ exports[`Result rorted on usage renders correctly 1`] = `
           }
         >
           $
-          0.31423
+          0.29933
         </td>
         <td>
           $
-          0.28840
+          0.27350
         </td>
       </tr>
     </tbody>
