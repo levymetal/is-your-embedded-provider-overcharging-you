@@ -4,6 +4,7 @@
   "description": "A tool to determine if your embedded provider is overcharging you",
   "version": "0.1.0",
   "license": "0BSD",
+  "packageManager": "yarn@4.12.0",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
